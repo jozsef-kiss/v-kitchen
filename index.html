@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="HU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>V-Kitchen</title>
+  </head>
+  <body>
+    <!--TODO ABLAK-->
+    <section class="main_container">
+        <article class="ablak_container">
+            <!--TODO HEADER-->
+            <header>
+                <nav class="nav">
+                    <div class="navbar-menu1">
+                        <ul class="navbar-lista1">
+                            <li class="nav_hover"><a href="./index.html">KEZDŐLAP</a></li>
+                            <li class="nav_hover"><a href="./receptek.html">RECEPTEK</a></li>
+                            <li class="nav_hover"><a href="#">VIDEÓK</a></li>   
+                        </ul>
+                    </div>
+                    <div class="nav_logo">
+                        <p class="v-logo">V-Kitchen</p>
+                    </div>
+                    <div class="navbar-menu2">
+                        <ul class="navbar-lista2">
+                            <li class="nav_hover"><a href="#">RÓLAM</a></li>
+                            <li class="nav_hover"><a href="#">KAPCSOLAT</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu">
+                        <input type="checkbox" name="hamburger" id="menu-toggle" />
+                        <label for="menu-toggle" class="hamburger-button">
+                            <span class="hamburger-lines"></span>
+                        </label>
+                        <ul class="menu__box">
+                            <li class="menu__item"><a href="./index.html">KEZDŐLAP</a></li>
+                            <li class="menu__item"><a href="#">RECEPTEK</a></li>
+                            <li class="menu__item"><a href="#">VIDEÓK</a></li>
+                            <li class="menu__item"><a href="#">RÓLAM</a></li>
+                            <li class="menu__item"><a href="#">KAPCSOLAT</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!--TODO MAIN-->
+            <main>
+                 <section class="main-box">
+                     <div class="main_szoveges">
+                        <div class="main_focim">
+                            <p class="focim_p">V-Kitchen</p>
+                        </div>
+                        <div class="main_szoveg">
+                            <p class="szovegek">Éhes vagy?</p> 
+                            <p class="szovegek">Egy jó receptet keresel?</p>
+                            <p class="szovegek">Vagy csak főzős videókat nézegetnél?</p>
+                        </div>
+                        <div class="main_btns">
+                            <button class="btn btn1"><a href="./receptek.html">Receptek</a></button>
+                            <button class="btn btn2"><a href="#">Videók</a></button>
+                        </div>
+                     </div>
+                     <div class="main_kep">
+                        <img src="./assets/hamburger-fokep.png" id="hamburger-fokep" alt="hamburger_főkép">
+                     </div>
+                 </section>
+            </main>
+            <hr>
+            <!--TODO FOOTER-->
+            <footer>
+                <div class="footer_menu">
+                    <a href="#">Adatvédelmi irányelvek</a>
+                    <a href="#">Impresszum</a>
+                </div>
+                <div class="social-logok">
+                    <a href="https://www.instagram.com/vona_food/" class="social_logo" id="social1" target="_blank"><img src="./assets/insta-logo.png" alt="instagram-logó"></a>
+                    <a href="https://www.tiktok.com/@vona1991" class="social_logo" id="social2" target="_blank"><img src="./assets/tiktok-logo.png" alt="tiktok-logó"></a>
+                    <a href="mailto:vona.2015@gmail.com" class="social_logo" id="social3" target="_blank"><img src="./assets/email-logo.png" alt="email-logó"></a>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2023 Kiss József - Front-end fejlesztő</p>
+                </div>
+            </footer>
+    </section>
+        </article>
+  </body>
+</html>

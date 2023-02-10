@@ -23,6 +23,7 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
+  max-height: 100vh;
 }
 
 img {
@@ -69,7 +70,6 @@ img {
 header {
   display: flex;
   justify-content: center;
-
 }
 
 .nav {

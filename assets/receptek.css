@@ -1,0 +1,297 @@
+/*------------------------------RECEPTEK------------------------------*/
+/*----------TELEFONOS-GÖRGETŐS BEÁLLÍTÁS----------*/
+.main_container {
+  height: auto;
+  width: 100vw;
+}
+
+.ablak_container {
+  width: 80vw;
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  left: 20vw;
+}
+
+.hamburger-button {
+  top: 0.7vh;
+}
+
+.menu__box {
+  top: 0px;
+}
+
+.main-box {
+  width: 60vw;
+  height: 100%;
+}
+
+footer {
+  height: 20vh;
+  width: 100%;
+}
+
+/*-----RECEPTEK-----*/
+
+.receptek_szoveges {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 35px;
+}
+
+.receptek_focim {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 45px auto;
+}
+
+.receptek_kartya {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.recept_kartya {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+  margin-bottom: 40px;
+}
+
+.receptek_kartyak_cim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 20%;
+  background-color: #ffeeca80;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.252);
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.receptek_kartyak_kep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  background-color: #aa756039;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.252);
+}
+
+.receptek_kartyak-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 469px) {
+  .receptek_focim {
+    font-size: 1.9rem;
+  }
+
+  .receptek_kartya {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+  }
+
+  .receptek_kartyak-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recept_kartya {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .receptek_kartyak_cim {
+    padding: 10px;
+    font-size: 1.8rem;
+  }
+
+  .receptek_kartyak_kep {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*--GÖRGETŐ KÉP OFF--*/
+  .main_container {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .ablak_container {
+    width: 80vw;
+    height: 90vh;
+  }
+
+  header {
+    position: static;
+    left: 0;
+  }
+
+  .hamburger-button {
+    top: 5.7vh;
+  }
+
+  .menu__box {
+    top: 15px;
+  }
+
+  .main-box {
+    width: 60vw;
+    height: 70vh;
+  }
+
+  footer {
+    height: 100%;
+    width: 100%;
+  }
+
+  /*-----MAIN-BOX-----*/
+
+  .receptek_szoveges {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    margin-top: 0px;
+  }
+
+  .receptek_focim {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+
+  .receptek_kartya {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+  }
+
+  .kartya_doboz1,
+  .kartya_doboz2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .receptek_kartyak_cim {
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .main-box {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .receptek_szoveges {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    margin-top: 0px;
+  }
+
+  .receptek_focim {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+
+  .receptek_kartya {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+  }
+
+  .recept_kartya {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    max-height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .receptek_kartyak_cim {
+    padding: 20px;
+  }
+
+  .kartya_doboz1,
+  .kartya_doboz2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .receptek_kartyak_cim {
+    font-size: 2.2rem;
+  }
+
+  .receptek_focim {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+  }
+
+  .recept_kartya {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    max-height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .receptek_kartyak_cim {
+    padding: 30px;
+  }
+}

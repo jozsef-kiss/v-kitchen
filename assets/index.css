@@ -32,7 +32,7 @@ img {
 }
 
 .main_container {
-  background-color: var(--fohatter);
+  background-color: white;
 }
 
 /*------------------------------FŐOLDAL------------------------------*/
@@ -41,7 +41,7 @@ img {
 
 .main_container {
   display: flex;
-  height: 100vh;
+  height: 93vh;
   width: 100vw;
   justify-content: center;
   align-items: center;
@@ -54,7 +54,7 @@ img {
   width: 80vw;
   height: 90vh;
   border-radius: 25px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.505);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.505), -2px -2px 15px rgba(0, 0, 0, 0.505);
 }
 
 /*-----NAV-----*/
@@ -102,7 +102,7 @@ header {
   display: flex;
   align-items: center;
   position: fixed;
-  top: 5.7vh;
+  top: 2.5vh;
   left: 25vw;
   width: 25px;
   height: 25px;
@@ -222,12 +222,12 @@ main {
 /*-----MAIN_SZÖVEG-----*/
 
 .main_szoveg {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   height: 10rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  line-height: 25px;
+  line-height: 28px;
 }
 
 /*-----MAIN_GOMBOK-----*/
@@ -240,11 +240,12 @@ main {
 
 .btn {
   background-color: var(--fooldal_gomb_hatter);
-  padding: 5px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
   border: none;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.252);
   cursor: pointer;
   transition-duration: 0.3s;
+  font-size: 1.6rem;
 }
 
 .btn:hover {
@@ -394,6 +395,11 @@ footer {
 @media screen and (min-width: 768px) {
   /*-----------------------------LAPTOP------------------------------*/
   /*-----------------------------FŐOLDAL------------------------------*/
+
+  .main_container {
+    height: 100vh;
+  }
+
   /*-----MAIN-KÉP-----*/
 }
 

@@ -24,6 +24,7 @@ html {
 body {
   font-family: "Inter", sans-serif;
   max-height: 100vh;
+  background-image: url(./HÁTTÉR/hatter2.jpg);
 }
 
 img {
@@ -32,7 +33,7 @@ img {
 }
 
 .main_container {
-  background-color: white;
+
 }
 
 /*------------------------------FŐOLDAL------------------------------*/
@@ -407,7 +408,10 @@ footer {
   /*-----------------------------LAPTOP / PC------------------------------*/
   /*-----------------------------FŐOLDAL------------------------------*/
   /*-----HEADER----*/
-
+  .nav {
+    width: 60vw;
+    height: 7vh;
+  }
   /*-----PC NAV ON-----*/
   .navbar-menu1 {
     display: flex;
@@ -434,6 +438,10 @@ footer {
   .navbar-lista1 li,
   .navbar-lista2 li {
     margin-right: 15px;
+  }
+
+  .nav_hover a{
+    font-weight: 500;
   }
 
   .nav_logo {

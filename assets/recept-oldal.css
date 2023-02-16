@@ -1,0 +1,176 @@
+/*--Főcím--*/
+
+.receptek_focim_p {
+  font-size: 2.8rem;
+}
+
+/*--Container--*/
+
+.recept_kartya {
+  width: 80vw;
+}
+
+/*--Recept-kép--*/
+
+.recept_kep {
+  display: none;
+}
+
+/*--Hozzávalók--*/
+
+.hozzavalok_telo_off {
+  display: none;
+}
+
+.receptek_kartyak_kep {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 80vw;
+}
+
+.hozzavalok_container {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hozzavalok li {
+  list-style-type: disc;
+  line-height: 28px;
+  font-size: 1.8rem;
+}
+
+.recept-oldal_hozzavalok_cim {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+#elso {
+  margin-top: 20px;
+}
+
+#utolso {
+  margin-bottom: 20px;
+}
+
+/*--Leírás-cím--*/
+
+.receptek_kartyak_cim {
+  font-size: 2rem;
+}
+
+/*--Leírás--*/
+
+.recept_leiras {
+  font-size: 1.6rem;
+  padding: 20px;
+  line-height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-box {
+    width: 95%;
+  }
+
+  /*--Hozzávalók-kártya--*/
+
+  .receptek_kartya {
+    width: 100%;
+    height: 90%;
+  }
+
+  .kartya_doboz1 {
+    align-items: flex-start;
+    justify-content: space-between;
+    max-height: 100%;
+  }
+
+  /*--Hozzávalók cím--*/
+
+  .hozzavalok_telo_off,
+  .cim {
+    display: block;
+    font-size: 1.6rem;
+  }
+
+  .recept-oldal_hozzavalok_cim {
+    display: none;
+  }
+
+  /*--Receptek-főcím--*/
+
+  .receptek_szoveges {
+    height: 10%;
+  }
+
+  .receptek_focim {
+    display: none;
+  }
+
+  /*--Recept-kép--*/
+
+  .recept_kep_off {
+    display: none;
+  }
+
+  .recept_kep {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .recept_kartya {
+    height: auto;
+  }
+
+  .recept_kepe_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+  }
+
+  .recept_kep {
+    width: 40%;
+  }
+
+  .recept_kepe {
+    width: 100%;
+  }
+
+  /*--RECEPT-lEÍRÁS--*/
+
+  .leiras {
+    width: 100%;
+    display: flex;
+  }
+
+  .elso_kartya {
+    width: 25%;
+  }
+
+  .masodik_kartya {
+    width: 50%;
+  }
+
+  .harmadik_kartya {
+    width: 25%;
+  }
+
+  .kartya {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cim {
+    font-size: 2.2rem;
+  }
+
+  .hozzavalok li {
+    font-size: 2rem;
+    line-height: 35px;
+  }
+}

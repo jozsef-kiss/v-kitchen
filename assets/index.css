@@ -41,7 +41,7 @@ img {
 
 .main_container {
   display: flex;
-  height: 93vh;
+  height: 88vh;
   width: 100vw;
   justify-content: center;
   align-items: center;
@@ -52,7 +52,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 80vw;
-  height: 90vh;
+  height: 85vh;
   border-radius: 25px;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.505), -2px -2px 15px rgba(0, 0, 0, 0.505);
 }
@@ -308,7 +308,7 @@ footer {
 
 .copyright {
   display: flex;
-  height: 30%;
+  height: 10%;
   align-items: center;
   justify-content: center;
   font-size: 1.1rem;

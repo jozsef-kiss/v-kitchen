@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="HU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/index.css" />
+    <link rel="stylesheet" href="./assets/receptek.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>V-Kitchen</title>
+  </head>
+  <body>
+    <!--TODO ABLAK-->
+    <section class="main_container">
+        <article class="ablak_container">
+            <!--TODO HEADER-->
+            <header>
+                <nav class="nav">
+                    <div class="navbar-menu1">
+                        <ul class="navbar-lista1">
+                            <li class="nav_hover"><a href="./index.html">KEZDŐLAP</a></li>
+                            <li class="nav_hover"><a href="./receptek.html">RECEPTEK</a></li>
+                            <li class="nav_hover"><a href="./videok.html">VIDEÓK</a></li>   
+                        </ul>
+                    </div>
+                    <div class="nav_logo">
+                        <p class="v-logo">V-Kitchen</p>
+                    </div>
+                    <div class="navbar-menu2">
+                        <ul class="navbar-lista2">
+                            <li class="nav_hover"><a href="#">RÓLAM</a></li>
+                            <li class="nav_hover"><a href="#">KAPCSOLAT</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu">
+                        <input type="checkbox" name="hamburger" id="menu-toggle" />
+                        <label for="menu-toggle" class="hamburger-button">
+                            <span class="hamburger-lines"></span>
+                        </label>
+                        <ul class="menu__box">
+                            <li class="menu__item"><a href="./index.html">KEZDŐLAP</a></li>
+                            <li class="menu__item"><a href="./receptek.html">RECEPTEK</a></li>
+                            <li class="menu__item"><a href="./videok.html">VIDEÓK</a></li>
+                            <li class="menu__item"><a href="#">RÓLAM</a></li>
+                            <li class="menu__item"><a href="#">KAPCSOLAT</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!--TODO MAIN-->
+            <main>
+                 <section class="main-box">
+                     <div class="receptek_szoveges">
+                        <div class="receptek_focim">
+                            <p class="receptek_focim_p">Recept videók</p>
+                        </div>
+                    </div>
+                    <div class="receptek_kartya">
+                        <div class="kartya_doboz1">
+                            <div class="recept_kartya">
+                                <div class="receptek_kartyak_cim">
+                                    <p>Videó1</p>
+                                </div>
+                                <div class="receptek_kartyak_kep">
+                                    <a href="./sf-receptek.html"><img src="./assets/RECEPTEK/receptek_streetfood.png" alt="streetfood"></a>
+                                </div>
+                            </div>
+                            <div class="recept_kartya">
+                                <div class="receptek_kartyak_cim">
+                                    <p>Videó2</p>
+                                </div>
+                                <div class="receptek_kartyak_kep">
+                                    <a href="./teszta-receptek.html"><img src="./assets/RECEPTEK/receptek-teszta.png" alt="tészta"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kartya_doboz2">
+                            <div class="recept_kartya">
+                                <div class="receptek_kartyak_cim">
+                                    <p>Videó3</p>
+                                </div>
+                                <div class="receptek_kartyak_kep">
+                                    <a href="./azsiai-receptek.html"><img src="./assets/RECEPTEK/receptek-azsiai.png" alt="ázsiai-étel"></a>
+                                </div>
+                            </div>
+                            <div class="recept_kartya">
+                                <div class="receptek_kartyak_cim">
+                                    <p>Videó4</p>
+                                </div>
+                                <div class="receptek_kartyak_kep">
+                                    <a href="./reggeli-receptek.html"><img src="./assets/RECEPTEK/receptek-reggeli.png" alt="reggeli"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </section>
+            </main>
+            <hr>
+            <!--TODO FOOTER-->
+            <footer>
+                <div class="footer_menu">
+                    <a href="#">Adatvédelmi irányelvek</a>
+                    <a href="#">Impresszum</a>
+                </div>
+                <div class="social-logok">
+                    <a href="https://www.instagram.com/vona_food/" class="social_logo" id="social1" target="_blank"><img src="./assets/insta-logo.png" alt="instagram-logó"></a>
+                    <a href="https://www.tiktok.com/@vona1991" class="social_logo" id="social2" target="_blank"><img src="./assets/tiktok-logo.png" alt="tiktok-logó"></a>
+                    <a href="mailto:vona.2015@gmail.com" class="social_logo" id="social3" target="_blank"><img src="./assets/email-logo.png" alt="email-logó"></a>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2023 Kiss József - Front-end fejlesztő</p>
+                </div>
+            </footer>
+    </section>
+        </article>
+  </body>
+</html>

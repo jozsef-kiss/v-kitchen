@@ -135,7 +135,7 @@ header {
   padding: 70px 0;
   background-color: var(--fohatter);
   color: white;
-  top: 15px;
+  top: 0px;
   left: 10px;
   height: 100%;
   visibility: hidden;

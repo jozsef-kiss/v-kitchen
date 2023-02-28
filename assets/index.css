@@ -393,10 +393,6 @@ footer {
   /*-----------------------------LAPTOP------------------------------*/
   /*-----------------------------FŐOLDAL------------------------------*/
 
-  .main_container {
-    height: 100vh;
-  }
-
   /*-----MAIN-KÉP-----*/
 }
 
@@ -406,6 +402,10 @@ footer {
   
   /*-----ABLAK-----*/
   
+  .main_container {
+    height: 100vh;
+  }
+
   .ablak_container {
     height: 95vh;
   }

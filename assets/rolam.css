@@ -1,0 +1,20 @@
+.receptek_kartyak_cim img {
+  display: none;
+}
+
+.recept_leiras {
+  line-height: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .kartya_doboz1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .recept_leiras {
+    line-height: 3rem;
+  }
+}

@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="HU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/index.css" />
+    <link rel="stylesheet" href="./assets/receptek.css" />
+    <link rel="stylesheet" href="./assets/kapcsolat.css">
+    <link rel="stylesheet" href="./assets/adatvedelem.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>V-Kitchen</title>
+    <link rel="icon" href="./assets/hamburger-fokep.png">
+  </head>
+  <body>
+    <!--TODO ABLAK-->
+    <section class="main_container">
+        <article class="ablak_container">
+            <!--TODO HEADER-->
+            <header>
+                <nav class="nav">
+                    <div class="navbar-menu1">
+                        <ul class="navbar-lista1">
+                            <li class="nav_hover"><a href="./index.html">KEZDŐLAP</a></li>
+                            <li class="nav_hover"><a href="./receptek.html">RECEPTEK</a></li>
+                            <!-- <li class="nav_hover"><a href="./videok.html">VIDEÓK</a></li>    -->
+                        </ul>
+                    </div>
+                    <div class="nav_logo">
+                        <p class="v-logo">V-Kitchen</p>
+                    </div>
+                    <div class="navbar-menu2">
+                        <ul class="navbar-lista2">
+                            <li class="nav_hover"><a href="./rolam.html">RÓLAM</a></li>
+                            <li class="nav_hover"><a href="./kapcsolat.html">KAPCSOLAT</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu">
+                        <input type="checkbox" name="hamburger" id="menu-toggle" />
+                        <label for="menu-toggle" class="hamburger-button">
+                            <span class="hamburger-lines"></span>
+                        </label>
+                        <ul class="menu__box">
+                            <li class="menu__item"><a href="./index.html">KEZDŐLAP</a></li>
+                            <li class="menu__item"><a href="./receptek.html">RECEPTEK</a></li>
+                            <!-- <li class="menu__item"><a href="./videok.html">VIDEÓK</a></li> -->
+                            <li class="menu__item"><a href="./rolam.html">RÓLAM</a></li>
+                            <li class="menu__item"><a href="./kapcsolat.html">KAPCSOLAT</a></li>
+                            <li class="menu__item"><a href="./adatvedelem.html">ADATVÉDELEM</a></li>
+                            <li class="menu__item"><a href="./impresszum.html">IMPRESSZUM</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!--TODO MAIN-->
+            <main>
+                 <section class="main-box">
+                     <div class="receptek_szoveges">
+                        <div class="receptek_focim">
+                            <p class="receptek_focim_p">Adatvédelem</p>
+                        </div>
+                    </div>
+                    <div class="adatvedelem">
+                        <textarea readonly>1 Általános Információk
+ 
+                            A Kiss József., (3348 Szilvásvárad, Dózsa György utca 45., mint Adatkezelő (a továbbiakban: Adatkezelő) komolyan veszi az Ön személyes adatainak védelmét és betartja a vonatkozó jogszabályokat, így az Európai Parlament és a Tanács 2016. április 27-ei (EU) 2016/679. számú rendeletét az Általános Adatvédelmi Rendeletet (GDPR), amely 2018. május 25-től alkalmazandó.
+                            
+                            Az Adatkezelő elkötelezett a tulajdonosok, partnerei, üzletfelei, munkavállalói személyes adatainak védelmében és kötelezettséget vállal arra, hogy tevékenysége során az adatkezelés megfeleljen a jelen tájékoztatóban, az adatkezelési szabályzatában és a hatályos jogszabályokban meghatározott elvárásoknak. A következő adatvédelmi tájékoztatóból megismerheti a weboldalunk meglátogatása és használata során az általunk végzett adatkezeléseket és az Önt megillető jogokat a GDPR szabályaival összhangban. Az adatkezelésére vonatkozó alapvető elvek és rendelkezések meghatározása és betartása érdekében, az Adatkezelő mindent megtesz annak érdekében, hogy a természetes személyek magánszférája védelemben részesüljön a vonatkozó törvényi előírásoknak és hatályos jogszabályoknak megfelelően. A jelen tájékoztató az Adatkezelő által kezelt, azonosított vagy azonosítható természetes személyre (érintettre) vonatkozó bármely információ (személyes adat) kezelésére vonatkozik.
+                            
+                            A Tájékoztató frissítése és elérhetősége
+                            Az Adatkezelő fenntartja a jogot jelen Tájékoztató egyoldalú módosítására. A tájékoztató módosításai weboldalon és az Adatkezelő székhelyen kerülnek hozzáférhetővé a módosítást követő 8 munkanapon belül.
+                            
+                            A Tájékoztató megismerése és elfogadása
+                            A személyes adat rendelkezésre bocsátásával Ön megerősíti, hogy a Tájékoztatónak az adat rendelkezésre bocsátásának időpontjában hatályos változatát megismerte és kifejezetten elfogadja.
+                            
+                            1.1 Vonatkozó jogszabályok
+                            Jelen adatkezelési tájékoztató az Európai Parlament és a Tanács 2016/679. számú Általános Adatvédelmi Rendelet (GDPR) a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint az információs önrendelkezési jogról és az információszabadságról szóló 2011. évi CXII. törvény (Infotv.), továbbá a hatályos ágazati jogszabályok rendelkezéseinek figyelembevételével került kialakításra, így különösen az alábbiakkal:
+                            – az egyének védelméről a személyes adatok gépi feldolgozása során szóló 1998. évi VI. törvény;
+                            – az elektronikus hírközlésről szóló 2003. évi C. törvény. (Eht.)
+                            – a Polgári Törvénykönyvről szóló 2013. évi V. törvény (Ptk.);
+                            – a számvitelről szóló 2000. évi C. törvény (Számv. tv.) 169. § (2) bekezdés;
+                            – a polgárok személyi adatainak és lakcímének nyilvántartásáról szóló 1992. évi LXVI. törvény
+                            – a gazdasági reklámtevékenység alapvető feltételeiről és egyes korlátairól szóló 2008. évi XLVIII. törvény
+                            – a munka törvénykönyvéről szóló 2012. évi I. törvény
+                            – az általános forgalmi adóról 2007. évi CXXVII. törvény
+                            – az adózás rendjéről 2017. évi CL. törvény;
+                            – az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény („Ekertv.”);
+                            
+                            1.2 Értelmező fogalmak
+                            Érintett: bármely meghatározott személyes adat alapján azonosított vagy egyébként – közvetlenül, vagy közvetve – azonosítható természetes személy. A személy különösen akkor tekinthető azonosíthatónak, ha őt – közvetlenül vagy közvetve – név, azonosító jel, illetőleg egy vagy több, fizikai, fiziológiai, mentális, gazdasági, kulturális vagy szociális azonosságára jellemző tényező alapján azonosítani lehet;
+                            Érintett törvényes képviselője: kiskorú személy esetén a szülő vagy törvényes gyám;
+                            Személyes adat: bármely meghatározott, azonosított vagy azonosítható természetes személlyel [érintett] kapcsolatba hozható adat és az adatból levonható, az érintettre vonatkozó következtetés. A személyes adat az adatkezelés során mindaddig megőrzi e minőségét, amíg kapcsolata az érintettel helyreállítható. Az érintettel akkor helyreállítható a kapcsolat, ha az adatkezelő rendelkezik azokkal a technikai feltételekkel, amelyek a helyreállításhoz szükségesek;
+                            Különleges adat: a faji eredetre, a nemzetiséghez tartozásra, a politikai véleményre vagy pártállásra, a vallásos vagy más világnézeti meggyőződésre, az érdek-képviseleti szervezeti tagságra, a szexuális életre, az egészségi állapotra, valamint a kóros szenvedélyre vonatkozó és a bűnügyi személyes adat;
+                            Bűnügyi személyes adat: a büntetőeljárás során vagy azt megelőzően a bűncselekménnyel vagy a büntetőeljárással összefüggésben, a büntetőeljárás lefolytatására, illetve a bűncselekmények felderítésére jogosult szerveknél, továbbá a büntetés-végrehajtás szervezeténél keletkezett, az érintettel kapcsolatba hozható, valamint a büntetett előéletre vonatkozó személyes adat.
+                            Hozzájárulás: az érintett akaratának önkéntes és határozott kinyilvánítása, amely megfelelő tájékoztatáson alapul, és amellyel félreérthetetlen beleegyezését adja a rá vonatkozó személyes adatok – teljes körű vagy egyes műveletekre kiterjedő – kezeléséhez;
+                            Tiltakozás: az érintett nyilatkozata, amellyel személyes adatainak kezelését kifogásolja, és az adatkezelés megszüntetését, illetve a kezelt adatok törlését kéri;
+                            Adatvédelem: a személyes adatok jogszerű kezelését, az érintett személyek védelmét biztosító alapelvek, szabályok, eljárások, adatkezelési eszközök és módszerek összessége.
+                            Adatkezelő: az a természetes vagy jogi személy, illetve jogi személyiséggel nem rendelkező szervezet, aki vagy amely önállóan vagy másokkal együtt az adatok kezelésének célját meghatározza, az adatkezelésre (beleértve a felhasznált eszközt) vonatkozó döntéseket meghozza és végrehajtja, vagy az adatfeldolgozóval végrehajtatja;
+                            Adatkezelés: az alkalmazott eljárástól függetlenül az adatokon végzett bármely művelet vagy a műveletek összessége, így különösen gyűjtése, felvétele, rögzítése, rendszerezése, tárolása, megváltoztatása, felhasználása, lekérdezése, továbbítása, nyilvánosságra hozatala, összehangolása vagy összekapcsolása, zárolása, törlése és megsemmisítése, valamint az adatok további felhasználásának megakadályozása, fénykép-, hang- vagy képfelvétel készítése, valamint a személy azonosítására alkalmas fizikai jellemzők (pl. ujj- vagy tenyérnyomat, DNS-minta, íriszkép) rögzítése;
+                            Adattovábbítás: az adat meghatározott harmadik személy számára történő hozzáférhetővé tétele;
+                            Nyilvánosságra hozatal: az adat bárki számára történő hozzáférhetővé tétele;
+                            Adattörlés: az adatok felismerhetetlenné tétele oly módon, hogy a helyreállításuk többé nem lehetséges;
+                            Adatmegjelölés: az adat azonosító jelzéssel ellátása annak megkülönböztetése céljából;
+                            Adatzárolás: az adat azonosító jelzéssel ellátása további kezelésének végleges vagy meghatározott időre történő korlátozása céljából;
+                            Adatmegsemmisítés: az adatokat tartalmazó adathordozó teljes fizikai megsemmisítése;
+                            Adatfeldolgozás: az adatkezelési műveletekhez kapcsolódó technikai feladatok elvégzése (függetlenül a műveletek végrehajtásához alkalmazott módszertől és eszköztől, valamint az alkalmazás helyétől).
+                            Adatfeldolgozó: az a természetes vagy jogi személy, illetve jogi személyiséggel nem rendelkező szervezet, aki vagy amely szerződés alapján – beleértve a jogszabály rendelkezése alapján kötött szerződést is – adatok feldolgozását végzi;
+                            Adatállomány: az egy nyilvántartásban kezelt adatok összessége;
+                            Harmadik személy: olyan természetes vagy jogi személy, illetve jogi személyiséggel nem rendelkező szervezet, aki vagy amely nem azonos az érintettel, az adatkezelővel vagy az adatfeldolgozóval;
+                            Érintett jogai: az adatalanyt még az adatkezelés megkezdése előtt, de ezen felül kérésére bármikor egyértelműen tájékoztatni kell az adatkezelés minden részletéről. Az érintett kérheti adatai helyesbítését, bizonyos esetben törlését is, valamint törvényben meghatározott esetekben tiltakozhat személyes adatai kezelése ellen;
+                            Az adatkezelés jogalapja: főszabály szerint az érintett hozzájárulása vagy törvényben elrendelt kötelező adatkezelés;
+                            Hozzájárulás: az érintett akaratának önkéntes és határozott kinyilvánítása, amely megfelelő tájékoztatáson alapul, és amellyel félreérthetetlen beleegyezését adja a rá vonatkozó személyes adatok – teljes körű vagy egyes műveletekre kiterjedő – kezeléséhez. Különleges adatok esetében szükséges az írásos forma;
+                            megfelelő tájékoztatás: az érintettel az adatkezelés megkezdése előtt közölni kell, hogy az adatkezelés a hozzájárulásán alapul-e vagy kötelező, továbbá egyértelműen és részletesen tájékoztatni kell az adatai kezelésével kapcsolatos minden tényről, így különösen az adatkezelés céljáról és jogalapjáról, az adatkezelésre és az adatfeldolgozásra jogosult személyéről, az adatkezelés időtartamáról, illetve arról, hogy kik ismerhetik meg az adatokat. A tájékoztatásnak ki kell terjednie az érintett adatkezeléssel kapcsolatos jogaira és jogorvoslati lehetőségeire is;
+                            Tiltakozás: az érintett nyilatkozata, amellyel személyes adatainak kezelését kifogásolja, és az adatkezelés megszüntetését, illetve a kezelt adatok törlését kéri;
+                            Adatbiztonság: az adatok jogosulatlan megszerzése, módosítása és megsemmisítése elleni műszaki és szervezési megoldások rendszere;
+                            Az adatkezelés elvei: a célhoz kötött adatkezelés követelménye (lásd alább), valamint az adatminőség követelménye. Ez utóbbi magában foglalja a pontos, teljes és naprakész adatok igényét, valamint az adatfelvétel és az adatkezelés tisztességes, törvényes mivoltát;
+                            Célhoz kötött adatkezelés: személyes adat kizárólag meghatározott célból, jog gyakorlása és kötelezettség teljesítése érdekében kezelhető. Az adatkezelésnek minden szakaszában meg kell felelnie az adatkezelés céljának, az adatok felvételének és kezelésének tisztességesnek és törvényesnek kell lennie. Csak olyan személyes adat kezelhető, amely az adatkezelés céljának megvalósulásához elengedhetetlen, a cél elérésére alkalmas. A személyes adat csak a cél megvalósulásához szükséges mértékben és ideig kezelhető. Az adatkezelés során biztosítani kell, hogy az adatok pontosak, teljesek és – ha az adatkezelés céljára tekintettel szükséges – naprakészek legyenek, valamint azt, hogy az érintettet csak az adatkezelés céljához szükséges ideig lehessen azonosítani;
+                            Adattovábbítás külföldre: személyes adatok továbbítása EGT-n (Európai Gazdasági Térség: az Európai Unió országai, valamint Izland, Norvégia és Liechtenstein) kívüli, harmadik országban adatkezelési tevékenységet folytató adatkezelőhöz;
+                            Infotv.: 2011. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról, amelyet az Alaptörvény VI. cikke alapján az Országgyűlés az információs önrendelkezési jog és az információszabadság biztosítása érdekében, az ezen jogok érvényesülését szolgáló alapvető szabályokról, valamint az ellenőrző hatóságról (NAIH) alkotott. A törvény célja, hogy a természetes személyek magánszféráját az adatkezelők tiszteletben tartsák, valamint a közügyek átláthatósága a közérdekű és a közérdekből nyilvános adatok megismeréséhez és terjesztéséhez fűződő jog érvényesítésével megvalósuljon. 2012. január 1-től hatályos;
+                            NAIH: Nemzeti Adatvédelmi és Információszabadság Hatóság: az Infotv. által 2012. január 1-vel létrehozott, az adatvédelmi biztos intézményét felváltó nemzeti adatvédelmi hatóság, melynek feladata a két információs jog védelme és a magyarországi adatkezelések törvényességének felügyelete;
+                            anonimizálás: olyan technikai eljárás, amely biztosítja az érintett és az adat közötti kapcsolat helyreállítási lehetőségének végleges kizárását;
+                            az adatkezelés korlátozása: a tárolt személyes adatok megjelölése jövőbeli kezelésük korlátozása céljából;
+                            Bankszámla: Az ügyfélnek a banknál forintban vagy devizában vezetett számlája, amelyen tranzakciók bonyolíthatók le, és amelyre a bank látra szóló kamatot fizet.
+                            címzett: az a természetes vagy jogi személy, közhatalmi szerv, ügynökség vagy bármely egyéb szerv, akivel vagy amellyel a személyes adatot közlik, függetlenül attól, hogy harmadik fél-e. Azon közhatalmi szervek, amelyek egy egyedi vizsgálat keretében az uniós vagy a tagállami joggal összhangban férhetnek hozzá személyes adatokhoz, nem minősülnek címzettnek; az említett adatok e közhatalmi szervek általi kezelése meg kell, hogy feleljen az adatkezelés céljainak megfelelően az alkalmazandó adatvédelmi szabályoknak;
+                            érintett felügyeleti hatóság: az a felügyeleti hatóság, amelyet a személyes adatok kezelése a -következő okok valamelyike alapján érint:
+                            felügyeleti hatóság: egy tagállam által a GDPR 51. cikkének megfelelően létrehozott független közhatalmi szerv;
+                            Hatóság: a Nemzeti Adatvédelmi és Információszabadság Hatóság;
+                            Nemzeti Adatvédelmi és Információszabadság Hatóság: a személyes adatok védelméhez, valamint a közérdekű és közérdekből nyilvános adatok megismeréséhez való jog érvényesülését ellenőrző, elősegítő államigazgatási szerv;
+                            nyilvántartási rendszer: a személyes adatok bármely módon – centralizált, decentralizált vagy funkcionális, vagy földrajzi szempontok szerint – tagolt állománya, amely meg- határozott ismérvek alapján hozzáférhető;
+                            Számviteli törvény: A számvitelről szóló 2000. évi C. törvény.
+                            ügyfél: az Adatkezelő-vel üzletszerű gazdasági tevékenysége keretében végzett tevékenységére vonatkozóan szerződéses jogviszonyt létesítő természetes személy.
+                            1.3 Az Adatkezelő adatai
+                             
+                            
+                            Az Adatkezelő neve:	Kiss József
+                            Székhely:	3348 Szilvásvárad, Dózsa György utca 45.
+                            Elérhetőség:	+3630/437-2445 vona.2015@gmail.com
+                            Adatvédelmi felelős elérhetősége:	+3630/437-2445 vona.2015@gmail.com
+                            1.4 Adatkezelések
+                            Általános adatkezelési irányelvek
+                            Az Adatkezelő tevékenységének adatkezelései önkéntes hozzájáruláson, szerződéses kötelezettségen, jogos érdeken, illetve törvényi felhatalmazáson alapulnak. Bizonyos esetekben a megadott adatok egy körének kezelését, tárolását, továbbítását jogszabályok teszik kötelezővé, melyről külön értesítjük partnereinket. Felhívjuk az Adatkezelő részére adatközlők figyelmét, hogy amennyiben nem saját személyes adataikat adják meg, az adatközlő kötelessége az érintett hozzájárulásának beszerzése. Ha a személyes adat felvételére az érintett hozzájárulásával került sor, az adatkezelő a felvett adatokat törvény eltérő rendelkezésének hiányában a) a rá vonatkozó jogi kötelezettség teljesítése céljából, vagy b) az adatkezelő vagy harmadik személy jogos érdekének érvényesítése céljából, ha ezen érdek érvényesítése a személyes adatok védelméhez fűződő jog korlátozásával arányban áll további külön hozzájárulás nélkül, valamint az érintett hozzájárulásának visszavonását követően is kezelheti. Az adatkezeléseink alapelvei összhangban vannak az adatvédelemmel kapcsolatos hatályos jogszabályokkal.
+                            
+                            Az adatok fizikai tárolási helyei
+                            Személyes adatai (vagyis azok az adatok, amelyek az Ön személyével kapcsolatba hozhatók) tevékenységünk gyakorlásához elengedhetetlen információk, melyek átvételére, kezelésére és tárolására az Ön hozzájárulása, jogi- és szerződéses kötelezettségünk teljesítése, illetve a jogos érdek jogosítja fel az Adatkezelőt. Fizikai tárolási helye a személyes adatoknak a mindenkori bejelentett székhelyen, illetve az Amazon szerverein történik.
+                            
+                            Adatok biztonsága
+                            Az Adatkezelő az Infotv. rendelkezéseinek figyelembevételével az adatok biztonságát szolgáló intézkedések meghatározásakor és alkalmazásakor jelentős technikai és szervezeti biztonsági intézkedéseket vezetett be annak érdekében, hogy biztonságosan kezelje ügyfelei személyes adatait, illetve megakadályozza a jogosulatlan hozzáférést, az adatokkal való visszaélést és az adatvesztést. A személyes adatok tárolása védett, korlátozott hozzáférésű kiszolgálókon történik, emellett az Adatkezelő mint adatkezelő és a megbízásából eljáró adatfeldolgozók minden szükséges technológiai és szervezési intézkedést megtesznek az ügyfelek adatainak elvesztése, az adatkezelési célnak nem megfelelő használata, engedély nélküli megismerése, kiadása, megváltoztatása vagy rongálása ellen. Az adatállományokhoz történő hozzáférés teljes körűen és megváltoztathatatlanul naplózott.
+                            
+                            Az adatok védelme:
+                            
+                            A társaság elektronikai eszközei jelszóval védettek
+                            A társaság irodája biztonsági zárral ellátott, riasztóval védett
+                            Esetlegesen bekövetkező adatvédelmi incidens esetén az Adatkezelő minden késedelem nélkül értesíti az érintett személyt, valamint 72 órán belül jelenti a NAIH felé is, amennyiben az incidensek valószínűsíthetően kockázattal járhatnak. Az adatok megismerésére jogosult adatkezelők személye:
+                            A személyes adatokat a jelen Tájékoztatóban szereplő alapelvek tiszteletben tartásával adatkezelő munkatársai kezelik azok egy részét kötelező könyvelési, illetve esetleges jogérvényesítési célokra továbbítja.
+                            
+                            1.5 Adatfeldolgozás
+                            Az Adatkezelő és a megbízásából eljáró adatfeldolgozó az adatkezelési és adatfeldolgozói tevékenységeik során jogszabályokban előírtaknak és a magyar és európai uniós joggyakorlatnak megfelelően járnak el. Az Adatkezelő csak olyan adatfeldolgozókat vesz igénybe, amelyek megfelelő garanciákat nyújtanak – különösen a szakértelem, a megbízhatóság és az erőforrások tekintetében – arra vonatkozóan, hogy a jogszabályi követelmények teljesülését biztosító technikai és szervezési intézkedéseket végrehajtják, ideértve az adatkezelés biztonságát is. A tulajdonosok és egyéb szerződő partnerek személyes adatait az Adatkezelő rendelkezése szerint adatfeldolgozóként kezelik.
+                            
+                            – Webanalitika, célzott reklám megjelenítés:
+                            
+                            Név: Google LLC
+                            Cím: 1 Hacker Way, Menlo Park, California 94025
+                            Tevékenység: weboldal látogatási adatok elemzése, célzott reklámok megjelenítése.
+                            Weboldal: https://www.google.com/
+                            Feldolgozott adatok: weboldal látogatás adatok, szűrők alapján táblázatokba megosztott adatok, egyedi felhasználó azonosítók, látogató azonosító süti (cookie).
+                             
+                            
+                            – Tárhely szolgáltató:
+                            
+                            Cégadatok:
+                            Cégnév: Websupport Magyarország Kft.
+                            Adószám: 25138205-2-41
+                            Cégjegyzékszám: 01-09-381419
+                            Közösségi adószám: HU25138205
+                            Cím: 1132 Budapest, Victor Hugo utca 18-22.
+                            Telefon: +36 1 700 4140
+                            e-mail: info@tarhelypark.hu
+                             
+                            
+                            1.6 Adattovábbítás
+                            Adattovábbítás a hatóságok (bíróság, ügyészség, nyomozó hatóság, szabálysértési hatóság, közigazgatási hatóság, Nemzeti Adatvédelmi és Információszabadság Hatóság), illetve más szervek törvényi felhatalmazáson alapuló, írásbeli adatkérése esetén Az Adatkezelőnek kötelessége. A hatóságok kérésének teljesítésével egyidőben az érintettet írásban tájékoztatjuk, mely adatait és kinek adtuk meg.
+                            
+                            Az Adatkezelő működtetésével kapcsolatos tevékenység keretében a kezelt adatok harmadik személy részére történő kiadására is sor kerülhet. Ezen harmadik fél kizárólag az Adatkezelő működéséhez feltétlenül szükséges és szerződéses vagy jogszabályi előíráson alapuló jogviszonnyal igazolt fél lehet, mint például: közmű szolgáltatók, az Adatkezelő könyvelője.
+                            
+                            1.6.1 Microsoft Clarity szolgáltatásnak
+                            Ez a honlap a Microsoft Clarity rendszerét használja a vásárlói szokások feltérképezésére és a honlapon történő navigáció követésére. Az alkalmazás nem gyűjt személyes adatokat, az ügyfél fiókja harmadik fél számára nem szolgáltat szenzitív személyes információkat.
+                            A Microsoft a Clarity szolgáltatás terén harmadik félnek minősül és önállő adatkezelő.
+                            
+                            Az adatkezelés célja: a felhasználói viselkedés elemzése hőtérképekkel. Segít megérteni, hogy a felhasználók miként lépnek kapcsolatba a webhelyével olyan funkciók révén, mint a munkamenet-visszajátszások és a hőtérképek.
+                            
+                            Továbbított személyes adatok: egyedi felhasználói azonosító, böngészési viselkedés.
+                            
+                            Clarity-re vonatkozó információk: https://clarity.microsoft.com
+                            Adatvédelmi nyilatkozat: https://privacy.microsoft.com/de-de/privacystatement
+                            
+                            1.7 Az érintett adatkezeléssel kapcsolatos jogai
+                            Minden érintettnek jogában áll, hogy tájékoztatást kérjen az Adatkezelő által kezelt személyes adatai állományáról, az adatkezelés céljairól, valamint az adatállományt kezelő személyéről és székhelyéről. Amennyiben az adatkezelés az érintett hozzájárulásán alapul, az érintett jogosult a hozzájárulást bármely időpontban visszavonni. A hozzájárulás visszavonása nem érinti a visszavonást megelőző adatkezelés jogszerűségét.
+                            
+                            Előzetes tájékoztatáshoz való jog
+                            
+                            Az érintett magánszemély bármikor jogosult arra, hogy az adatkezeléssel összefüggő tényekről és információkról érthető tájékoztatást kapjon, ez a joga fennáll különösen az adatkezelés megkezdését megelőzően is.
+                            
+                            Hozzáférési jog
+                            Az érintett magánszemély jogosult arra, hogy az adatkezelőtől tömör, közérthető választ kapjon arra nézve, hogy személyes adatainak kezelését végzik-e aktuálisan, és ha igen, akkor jogosult arra, hogy a személyes adatokhoz és az uniós rendeletben meghatározott kapcsolódó információkhoz hozzáférést kapjon. Különösképpen arra vonatkozóan, hogy:
+                            
+                            – milyen személyes adatait,
+                            – milyen jogalapon,
+                            – milyen adatkezelési cél miatt,
+                            – mennyi ideig kezeli; továbbá, hogy
+                            – az Adatkezelő kinek, mikor, milyen jogszabály alapján, mely személyes adataihoz biztosított hozzáférést vagy kinek továbbította a személyes adatait;
+                            – milyen forrásból származnak a személyes adatai;
+                            – az Adatkezelő alkalmaz-e automatizált döntéshozatalt, valamint annak logikáját, ideértve a profilalkotást is.
+                            Az Adatkezelő az adatkezelés tárgyát képező személyes adatok másolatát az érintett erre irányuló kérésére első alkalommal díjmentesen bocsátja a rendelkezésére, ezt követően adminisztratív költségen alapuló, észszerű díjat számíthat fel.
+                            Az adatbiztonsági követelmények teljesülése és az érintett jogainak védelme érdekében a Hivatal köteles meggyőződni az érintett és a hozzáférési jogával élni kívánó személy személyazonosságának egyezéséről, ennek érdekében a tájékoztatás, az adatokba történő betekintés, illetve azokról másolat kiadása is az érintett személyének azonosításához kötött.
+                            A kérelem beérkezését követően 25 napon belül adja meg az adatkezelő a tájékoztatást.
+                            
+                            Helyesbítéshez való jog
+                            Az érintett magánszemély jogosult arra, hogy kérésére az adatkezelő – indokolatlan késedelem nélkül – helyesbítse a rá vonatkozó pontatlan személyes adatokat. Az érintett jogosult arra, hogy kérje a hibás, hiányos személyes adatok módosítását, kiegészítését. Amennyiben hitelt érdemlően igazolni tudja a helyesbített adat pontosságát, az Adatkezelő indokolatlan késedelem nélkül, de legfeljebb 25 napon belül teljesíti, és erről az Ön által megadott elérhetőségen értesítési.
+                            
+                            A törléshez (elfeledtetéshez) való jog
+                            Az érintett magánszemély jogosult arra, hogy kérésére az adatkezelő – indokolatlan késedelem nélkül – törölje a rá vonatkozó személyes adatokat, az adatkezelő pedig köteles arra, hogy az érintettre vonatkozó személyes adatokat indokolatlan késedelem nélkül törölni bizonyos esetekben.
+                            Az érintettnek ez a joga különösen a hozzájárulása alapján kezelt személyes adataihoz kapcsolódóan áll fent, bizonyos más esetekben, így többek között a jogi kötelezettség teljesítése alapján kezelt adatok esetén pedig kifejezetten korlátozott ez a joga.
+                            
+                            Az adatkezelés korlátozásához való jog
+                            Az érintett jogosult arra, hogy kérésére az adatkezelő korlátozza az adatkezelést, ha bizonyos meghatározott feltételek teljesülnek. Az Adatkezelő korlátozza a személyes adatainak kezelést (az adatkezelés korlátozott jellegének egyértelmű jelölésével és egyéb adatoktól elkülönített kezelés biztosításával) amennyiben:
+                            
+                            – vitatja a személyes adatai pontosságát (ebben az esetben a Hivatal arra az időtartamra korlátozza az adatkezelést, amíg az ellenőrzi a személyes adatok pontosságát),
+                            – az adatkezelés jogellenes, és Ön ellenzi az adatok törlését, és ehelyett kéri azok felhasználásának korlátozását,
+                            – az adatkezelőnek már nincs szüksége a személyes adatokra adatkezelés céljából, de Ön igényli azokat jogi igények előterjesztéséhez, érvényesítéséhez vagy védelméhez,
+                            – Ön tiltakozott az adatkezelés ellen (ez esetben a korlátozás arra az időtartamra vonatkozik, amíg megállapításra kerül, hogy az adatkezelő jogos indokai elsőbbséget élveznek-e az Ön jogos indokaival szemben).
+                            A személyes adatok helyesbítéséhez vagy törléséhez, illetve az adatkezelés korlátozásához kapcsolódó értesítési kötelezettség
+                            Az adatkezelő minden olyan címzettet tájékoztat minden helyesbítésről, törlésről vagy adatkezelés-korlátozásról, akikkel a személyes adatot közölték. Kivétel: nem várható el ezen kötelezettség teljesítése, ha ez lehetetlennek bizonyul, vagy aránytalanul nagy erőfeszítést igényel.
+                            
+                            Az adathordozhatósághoz való jog
+                            Az érintett jogosult arra, hogy a rá vonatkozó, általa egy adatkezelő rendelkezésére bocsátott személyes adatokat tagolt, széles körben használt, géppel olvasható formátumban megkapja, továbbá jogosult arra, hogy ezeket az adatokat egy másik adatkezelőnek továbbítsa.
+                            
+                            A tiltakozáshoz való jog
+                            Az érintett magánszemély jogosult arra, hogy saját helyzetével kapcsolatos okokból bármikor tiltakozhat az adatkezelés ellen, ha álláspontja szerint az Adatkezelő a személyes adatát a jelen adatkezelési tájékoztatóban megjelölt céllal összefüggésben nem megfelelően kezelné. Ebben az esetben az Adatkezelő, a személyes adatokat nem kezelheti tovább, kivéve, ha az adatkezelés olyan kényszerítő erejű jogos okok indokolják, amelyek elsőbbséget élveznek az Ön érdekeivel, jogaival és szabadságaival szemben, vagy amelyek jogi igények előterjesztéséhez, érvényesítéséhez vagy védelméhez kapcsolódnak. Ebben az esetben a személyes adatok nem kezelhetők tovább, kivéve, ha az
+                            
+                            – adatkezelés közérdekű vagy az adatkezelőre ruházott közhatalmi jogosítvány gyakorlásának keretében végzett feladat végrehajtásához szükséges, illetve ha
+                            – az adatkezelés az adatkezelő vagy egy harmadik fél jogos érdekeinek érvényesítéséhez szüksége
+                             
+                            
+                            1.8 Automatizált döntéshozatal, profilalkotás
+                            Az Adatkezelő nem végez automatizált döntéshozatalt és profilalkotást.
+                            
+                            1.9 Az érintett tájékoztatása az adatvédelmi incidensről
+                            Ha az adatvédelmi incidens valószínűsíthetően magas kockázattal jár a természetes személyek jogaira és szabadságaira nézve, abban az esetben az adatkezelő – indokolatlan késedelem nélkül – tájékoztatja az érintettet az adatvédelmi incidensről.
+                            
+                            1.10 Jogorvoslat
+                            Információ, panasz
+                            Amennyiben az érintett úgy véli, hogy személyes adatainak kezeléséhez fűződő jogai sérültek, tájékoztatásért és jogainak gyakorlásáért az Adatkezelő mindenkori képviselőjéhez fordulhat.
+                            A felügyeleti hatóságnál történő panasztételhez való jog (hatósághoz való fordulás joga)
+                            További jogorvoslat érdekében a Nemzeti Adatvédelmi és Információszabadság Hatósághoz lehet panaszt benyújtani. A Hatóság a panaszokat csak abban az esetben vizsgálja ki, amennyiben az érintett a Hatóságnál tett bejelentését megelőzően már megkereste az adatkezelőt a bejelentésben megjelölt jogainak gyakorlásával kapcsolatban.
+                            A Hatóság elérhetősége: postacím: 1374 Budapest, Pf. 603.;
+                            cím: 1055 Budapest, Falk Miksa utca 9-11.,
+                            telefon: +36 1 391 1400,
+                            e-mail: ugyfelszolgalat@naih.hu.
+                            A felügyeleti hatósággal szembeni hatékony bírósági jogorvoslathoz való jog
+                            Minden természetes és jogi személy jogosult a hatékony bírósági jogorvoslatra a felügyeleti hatóság rá vonatkozó, jogilag kötelező erejű döntésével szemben.
+                            Ez a jog akkor is fennáll, ha a felügyeleti hatóság nem foglalkozik a panasszal, vagy három hónapon belül nem tájékoztatja az érintettet a benyújtott panasszal kapcsolatos eljárási fejleményekről vagy annak eredményéről.
+                            Az adatkezelővel vagy az adatfeldolgozóval szembeni hatékony bírósági jogorvoslathoz való jog
+                            Minden érintett hatékony bírósági jogorvoslatra jogosult, ha megítélése szerint a személyes adatainak az uniós rendeletnek nem megfelelő kezelése következtében megsértették a jogait.
+                            
+                            2 A weboldal meglátogatásával, használatával kapcsolatos adatgyűjtés és kezelés
+                             
+                            
+                            Azon látogatók esetén, akik csak érdeklődés, információszerzés céljából látogatják meg weboldalunkat – de nem regisztrálnak vagy nem regisztrált felhasználók, illetve nem küldenek üzenetet a kapcsolati űrlapon keresztül – a böngészőjük által a szerverünknek küldött személyes adatok közül csak azokat gyűjtjük amelyek technikailag szükségesek, hogy honlapunkat a megfelelő formában és minőségben jelenítsük meg, illetve a honlap biztonságát stabilitását garantálni tudjuk, valamint a látogatók oldalhasználatáról információt szerezhessünk a jobb kiszolgálás érdekében.
+                            
+                            A kezelt adatok elemzését, a fenti célok elérése érdekében a webmesterünknek továbbítjuk (pl. a weboldal megjelenítése és tartalmának elrendezése).
+                            
+                            A Szolgáltató a naplóállományok elemzése során felmerült adatokat más információval nem kapcsolja össze, a Felhasználó személyének azonosítására nem törekszik.
+                            
+                            A látogatásokkal kapcsolatos naplóállományokat (log fájlokat) a látogatástól számított 7 nap elteltével töröljük.
+                            
+                            Jogalap: GDPR 6. cikk (1) bekezdés f) pont – adatkezelői jogos érdek, az érdekmérlegelést lásd e tájékoztató mellékletében.
+                            
+                            A kezelt adatok köre: dátum, időpont, a meglátogatott oldal címe a Felhasználó operációs rendszerével és böngészőjével kapcsolatos adatok, valamint a Felhasználó számítógépének IP címe.
+                            
+                            2.1 Cookie-k
+                            Az általános elterjedt internetes gyakorlatnak megfelelően Mi is használunk sütiket (cookie) a weboldalon. A cookie egy kis fájl, amely egy sor karaktert tartalmaz, és amely akkor kerül a látogató számítógépére, amikor a webhelyünket felkeresi. Amikor ismét felkeresi a webhelyünket, a cookie-nak köszönhetően a webhely képes felismerni a látogató böngészőjét. A cookie-k tárolhatnak felhasználói beállításokat és egyéb információkat is. Többek között információt gyűjtenek a látogatóról és eszközéről, megjegyzik a látogató egyéni beállításait, felhasználásra kerülhetnek a weboldalak váltogatásai során. A sütik általánosságban megkönnyítik a weboldal használatát, elősegítik, hogy a weboldal a felhasználók számára igazi webes élményt nyújtson, és hatékony információforrást jelentsen, továbbá biztosítják a weboldal üzemeltetője részére az oldal működésének ellenőrzését, visszaélések megakadályozását és a weboldalon nyújtott szolgáltatások zavartalan és megfelelő színvonalú biztosítását.
+                            
+                            Honlapunk a weboldal használata során a látogatóról, illetve az általa böngészésre használt eszközről az alábbi adatokat rögzíti és kezeli:
+                            
+                            az látogató által használt IP cím,
+                            a böngésző típusa,
+                            a böngészésre használt eszköz operációs rendszerének jellemzői,
+                            látogatás időpontja,
+                            a meglátogatott oldal, funkció vagy szolgáltatás.
+                            
+                            A sütik használatának elfogadása, engedélyezése nem kötelező. Ön megváltoztathatja a böngészője beállításait, hogy az utasítsa el az összes cookie-t, vagy jelezze, ha a rendszer éppen egy cookie-t küld. A legtöbb böngésző ugyan alapértelmezettként automatikusan elfogadja a sütiket, de ezek általában megváltoztathatóak annak érdekében, hogy megakadályozható legyen az automatikus elfogadás és minden alkalommal felajánlja a választás lehetőségét.
+                            
+                            A legnépszerűbb böngészők süti beállításairól az alábbi linkeken tájékozódhat:
+                            Google Chrome: https://support.google.com/accounts/answer/61416?hl=hu
+                            Firefox: https://support.mozilla.org/hu/kb/tovabbfejlesztett-kovetes-elleni-vedelem-az-asztal?&redirectlocale=hu
+                            Microsoft Internet Explorer 11: http://windows.microsoft.com/hu-hu/internet-explorer/delete-manage-cookies#ie=ie-11
+                            Microsoft Internet Explorer 10: http://windows.microsoft.com/hu-hu/internet-explorer/delete-manage-cookies#ie=ie-10-win-7
+                            Microsoft Internet Explorer 9: http://windows.microsoft.com/hu-hu/internet-explorer/delete-manage-cookies#ie=ie-9
+                            Microsoft Internet Explorer 8: http://windows.microsoft.com/hu-hu/internet-explorer/delete-manage-cookies#ie=ie-8
+                            Microsoft Edge: http://windows.microsoft.com/hu-hu/windows-10/edge-privacy-faq
+                            Safari: https://support.apple.com/hu-hu/HT201265
+                            
+                            Felhívjuk weboldalunkat használók figyelmét arra, hogy előfordulhat, hogy bizonyos webhelyfunkciók vagy szolgáltatások nem fognak megfelelően működni cookie-k nélkül.
+                            
+                            A weboldalon használt sütik önmagukban nem alkalmasak a felhasználó személyének beazonosítására.
+                            
+                            Weboldalunkon a következő cookie-t használjuk:
+                            
+                            2.1.1 Technikai cookie-k
+                            Az adatkezelés célja és a kezelt személyes adatok:
+                            A technikai cookie-k olyan funkciókat biztosítanak, amelyek nélkül a honlapjaink nem használhatók rendeltetésszerűen. Ezen cookie-kat kizárólag mi használjuk. Ez azt jelenti, hogy a cookie-kban tárolt valamennyi információ a honlapunk működéséhez szükséges.
+                            A technikai cookie-k figyelemmel kísérik a honlapon végzett műveleteket, így például arra szolgálnak, hogy Ön, mint regisztrált felhasználó mindig bejelentkezve maradj, amikor a honlapunk különböző aloldalaira belép, és így ne kelljen minden alkalommal újra beírni a belépési adatait az oldalak közti navigálás során.
+                            
+                              Az adatkezelés jogalapja: A technikai cookie-k használata a honlapunkon az Ön beleegyezése nélkül lehetséges, annak jogalapját jogos érdek jelenti (a GDPR 6. cikk (1) bekezdés f) pont), tekintettel arra, hogy a honlap rendeltetésszerű működtetéséhez ezek a cookie-k feltétlenül szükségesek. A jogos érdek jogalap alkalmazása esetén érdekmérlegelési teszt szükséges, amit az Érintettek kérésére, kivonatos formában, át kell adni. A jelen adatkezeléshez tartozó érdekmérlegelési tesztet az adatvedelem@cashbook.hu e-mail címre küldött levélben kérheti. .
+                            
+                            A technikai cookie-k ezért egyénileg nem aktiválhatók és deaktiválhatók. Ugyanakkor bármikor kikapcsolhatja a cookie-kat a böngészőben (lásd fentebb).
+                            
+                              Az adatkezelés időtartama: Ezen cookie-k a fenti személyes adatokat a munkamenet végéig kezelik.
+                            
+                            2.1.2 Teljesítmény méréséhez szükséges sütik:
+                            Weboldalunkat folyamatosan szeretnénk fejleszteni és javítani látogatóink számára: ezek a sütik ezt a célt szolgálják azzal, hogy általuk weboldalunk működését tudjuk elemezni. Ezek a cookie-k hosszabb ideig kerülnek tárolásra a böngésző cookie file-jában. Ennek időtartama attól is függ, hogy az Érintett az internetes böngészőjében milyen beállítást alkalmaz.
+                            
+                            Hogyan működik ez valójában?
+                            
+                            2.1.2.1 A Google Analytics alkalmazása
+                            Ez a honlap a Google Analytics alkalmazást használja, amely a Google Inc. („Google”) webelemző szolgáltatása. A Google Analytics sütikkel információt gyűjtünk weboldalunk használatáról, pl. a látogató melyik oldalt nézte meg, hova kattintott, hány oldalt keresett meg, milyen hosszú volt az egyes megtekintések ideje, milyen hibaüzenetekkel találkozott stb. Fontos, hogy ezek a sütik nem tudják – és nem is akarják – konkrétan beazonosítani a látogatókat (az éppen használt IP címet is csak részben rögzítik).
+                            
+                            A Felhasználó által használt weboldallal kapcsolatos cookie-kal létrehozott információk rendszerint a Google egyik szerverére kerülnek és tárolódnak. Az IP-anonimizálás weboldali aktiválásával a Google a Felhasználó IP-címét az Európai Unió tagállamain belül vagy az Európai Gazdasági Térségről szóló megállapodásban részes más államokban előzőleg megrövidíti.
+                            
+                            A weboldal üzemeltetőjének megbízásából a Google ezeket az információkat arra használja, hogy kiértékelje, hogy a Felhasználó hogyan használja a honlapot, továbbá, hogy a weboldal üzemeltetőjének a honlap aktivitásával összefüggő jelentéseket készítsen, valamint, hogy a weboldal- és az internethasználattal kapcsolatos további szolgáltatások a teljesítsen.
+                            
+                            A Google Analytics keretein belül a Felhasználó böngészője által továbbított IP-címet nem vezeti össze a Google más adataival. A cookie-k tárolását a Felhasználó a böngészőjének megfelelő beállításával megakadályozhatja, azonban felhívjuk figyelmét, hogy ebben az esetben előfordulhat, hogy ennek a honlapnak nem minden funkciója lesz teljeskörűen használható. Megakadályozhatja továbbá, hogy a Google gyűjtse és feldolgozza a cookie-k általi, a Felhasználó weboldal használattal kapcsolatos adatait (beleértve az IP-címet is), ha letölti és telepíti a következő linken elérhető böngésző plugint.
+                            https://tools.google.com/dlpage/gaoptout?hl=hu
+                            
+                            2.1.2.2 A Microsoft Clarity alkalmazása
+                            Ez a honlap a Microsoft Clarity rendszerét használja a vásárlói szokások feltérképezésére és a honlapon történő navigáció követésére.
+                            
+                            Cookie neve	Típus	Szolgáltató	Lejárat	Leírás
+                            CLID	Analitikai	Microsoft Clarity	1 év	Adatokat gyűjt a felhasználó navigációjáról és viselkedéséről a weboldalon. Ez statisztikai jelentések és hőtérképek összeállítására szolgál a weboldal tulajdonosa számára. Azonosítja, hogy a Clarity először látta ezt a felhasználót a Clarityt használó bármely webhelyen.
+                            _clck	Analitikai	Microsoft Clarity	1 év	Ezt a cookie-t a Microsoft Clarity telepítette, hogy információkat tároljon a látogatók webhelyhasználatáról, és segítsen analitikai jelentést készíteni a webhely teljesítményéről. Az összegyűjtött adatok, beleértve a látogatók számát, a forrást, ahonnan érkeztek, és a meglátogatott oldalakat névtelen formában.
+                            _clsk	Analitikai	Microsoft Clarity	1 év	Ezt a cookie-t a Microsoft Clarity telepítette, hogy információkat tároljon a látogatók webhelyhasználatáról, és segítsen analitikai jelentést készíteni a webhely teljesítményéről. Az összegyűjtött adatok, beleértve a látogatók számát, a forrást, ahonnan érkeztek, és a meglátogatott oldalakat névtelen formában.
+                            _cltk	Analitikai	Microsoft Clarity	Session lejáratáig	Statisztikai adatokat regisztrál a felhasználók webhelyen való viselkedéséről. A webhely üzemeltetője belső elemzésekhez használja.
+                            Clarity-re vonatkozó információk: https://clarity.microsoft.com
+                            Adatvédelmi nyilatkozat: https://privacy.microsoft.com/de-de/privacystatement
+                            Elutasítási lehetőség (leiratkozás): https://choice.microsoft.com/de-DE/opt-out
+                            
+                            2.1.3 Funkcionális sütik
+                            Megkönnyítik és élvezetesebbé teszik a weboldal használatát: pl. a website emlékezni fog rá, milyen adatokat nézett meg korábban. Ezen sütik olyan speciális funkciókat és személyre szabott szolgáltatást tesznek lehetővé, mint például a videók és az élő chat. A sütiket mi helyezzük el, vagy olyan harmadik fél, amelynek szolgáltatásait felvettük az oldalainkra. Amennyiben nem engedélyezi ezen sütik használatát, előfordulhat, hogy az említett funkciók nem megfelelően működnek.
+                            
+                            2.1.4 Hirdetéshez használt sütik
+                            Ilyenkor a sütik bizonyos tartalmát megosztjuk egy harmadik féllel – akiknél hirdetünk (Ezt a funkciót bármikor letilthatja).
+                            Céljuk, hogy olyan hirdetésekkel találkozzon, amelyek Önnek érdekesek vagy fontosak lehetnek. Megnézik például, hogy milyen oldalakat keresett fel, hova kattintott, hány oldalt nézett meg stb. Ezek a sütik szintén nem tudják konkrétan beazonosítani a látogatókat (az éppen használt IP címet csak részben rögzítik).
+                            A legtöbb böngésző menüsorában található „Segítség” funkció, tájékoztatást nyújt arra vonatkozóan, hogy az Érintett saját böngészőjében – hogyan tudja letiltani a cookie-kat,
+                            – hogyan fogadhat el új cookie-kat,
+                            – hogyan adhat utasítást böngészőjének arra, hogy új cookie-t állítson be, vagy
+                            – hogyan kapcsoljon ki az egyéb cookie-kat.
+                            
+                            2.1.5 Google Ads (volt Adwords) konverziókövetés használata
+                            A „Google Ads” nevű online reklámprogramot használja az Adatkezelő, továbbá annak keretein belül igénybe veszi a Google konverziókövető szolgáltatását. A Google konverziókövetés a Google Inc. elemző szolgáltatása (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; „Google“).
+                            
+                            Amikor Felhasználó egy weboldalt Google-hirdetés által ér el, akkor egy a konverziókövetéshez szükséges cookie kerül a számítógépére. Ezeknek a cookie-knak az érvényessége korlátozott, és nem tartalmaznak semmilyen személyes adatot, így a Felhasználó nem is azonosítható általuk.
+                            
+                            Amikor a Felhasználó a weboldal bizonyos oldalait böngészi, és a cookie még nem járt le, akkor a Google és az adatkezelő is láthatja, hogy Felhasználó a hirdetésre kattintott.
+                            
+                            Minden Google Ads ügyfél másik cookie-t kap, így azokat az Ads ügyfeleinek weboldalain keresztül nem lehet nyomon követni.
+                            
+                            Az információk – melyeket a konverziókövető cookie-k segítségével szereztek – azt a célt szolgálják, hogy az Ads konverziókövetést választó ügyfeleinek számára konverziós statisztikákat készítsenek. Az ügyfelek így tájékozódnak a hirdetésükre kattintó és konverziókövető címkével ellátott oldalra továbbított felhasználók számáról. Azonban olyan információkhoz nem jutnak hozzá, melyekkel bármelyik felhasználót azonosítani lehetne.
+                            
+                            Ha nem szeretne részt venni a konverziókövetésben, akkor ezt elutasíthatja azáltal, hogy böngészőjében letiltja a cookie-k telepítésének lehetőségét. Ezután Ön nem fog szerepelni a konverziókövetési statisztikákban.
+                            
+                            További információ, valamint a Google adatvédelmi nyilatkozata az alábbi oldalon érhető el:
+                            https://policies.google.com/privacy?gl=hu
+                            
+                            2.2 Regisztráció, bejelentkezés
+                            Az Cashbook pénzügyi nyilvántartó program szolgáltatásait csak regisztrált felhasználók vehetik igénybe. A weboldalon direkt regisztráció nem működik.
+                            Regisztrálni két féle módon lehetséges:
+                            
+                            2.2.1 Könyvelő vállalkozások regisztrációja
+                             
+                            
+                            A Cashbook programmal együttműködő könyvelő programok tartalmaznak egy regisztrációt elindító lehetőséget. Ezt aktiválva meghívódig a Cashbook weboldal regisztrációs felülete.
+                            
+                            Az adatkezelés célja: az Cashbook programot használó ügyfelekkel szerződés kötése a Cashbook szolgáltatások igénybevételére, az Cashbook programot használó ügyfelek azonosítása, az adat integritás és a biztonságos adatkezelés biztosítása.
+                            Az adatkezelés jogalapja: szerződés előkészítés, illetve szerződéskötés (GDPR 6. cikk (1) bekezdés b) pont)
+                            
+                            Kezelt személyes adatok: vállalkozás neve, számlázási cím, kapcsolattartó neve, email cím, kapcsolattartási telefonszám, regisztráció időpontja, regisztráció kori IP cím, regisztráció elfogadása, jelszó.
+                            
+                            Az érintettek köre: minden olyan természetes, illetve jogi személyre vagy jogi személyiség nélküli szervezetre (könyvelőre és vállalkozásra) aki/amely információs társadalommal összefüggő, valamint a Polgári Törvénykönyv alapján távollévők közötti kommunikációt lehetővé tévő eszköz alkalmazásával szolgáltatást vesz igénybe (a szolgáltatást igénybe vevő könyvelő, illetve könyvelő vállalkozás).
+                            
+                            Az adatkezelés időtartama, az adatok törlésének határideje: A szerződés megszűnését követő 5 év.
+                            
+                            Az adatok megismerésére jogosult lehetséges adatkezelők személye: A személyes adatokat az Adatkezelő kijelölt munkatársai kezelhetik, a fenti alapelvek tiszteletben tartásával.
+                            
+                            Adattovábbítás és profilalkotás nem történik
+                            
+                            2.2.2 Könyveltető vállalkozások regisztrációja
+                             
+                            
+                            A Cashbook programban már regisztrált könyvelők meghívhatják szerződéses ügyfeleiket a program használatára. A könyvelő egy meghívót küld a könyvelő programja segítségével a szerződéses partnerének. A meghívó e-mail egy, a Cashbook oldalára mutató linket tartalmaz. Ezt aktiválva meghívódig a Cashbook weboldal regisztrációs felülete.
+                            
+                            Az adatkezelés célja: az Cashbook programot használó ügyfelek azonosítása, az adat integritás és a biztonságos adatkezelés biztosítása, az Cashbook programot használó ügyfelek azonosítása, az adat integritás és a biztonságos adatkezelés biztosítása.
+                            Az adatkezelés jogalapja: szerződés előkészítés, illetve szerződéskötés (GDPR 6. cikk (1) bekezdés b) pont)
+                            
+                            Kezelt személyes adatok: vállalkozás neve, számlázási cím, kapcsolattartó neve, email cím, kapcsolattartási telefonszám, regisztráció időpontja, regisztráció kori IP cím, regisztráció elfogadása, jelszó.
+                            
+                            Az érintettek köre: minden olyan természetes, illetve jogi személyre vagy jogi személyiség nélküli szervezetre (könyveltető vállalkozás) aki/amely információs társadalommal összefüggő, valamint a Polgári Törvénykönyv alapján távollévők közötti kommunikációt lehetővé tévő eszköz alkalmazásával szolgáltatást vesz igénybe (a szolgáltatást igénybe vevő és a szolgáltatást megrendelő könyvelőtől könyvelési szolgáltatást igénybe vevő.
+                            
+                            Az adatkezelés időtartama, az adatok törlésének határideje: A szerződés megszűnését követő 5 év.
+                            
+                            Az adatok megismerésére jogosult lehetséges adatkezelők személye: A személyes adatokat az Adatkezelő kijelölt munkatársai kezelhetik, a fenti alapelvek tiszteletben tartásával.
+                            Adattovábbítás és profilalkotás nem történik.
+                            
+                            2.3 Kapcsolatfelvétel regisztrált felhasználókkal
+                             
+                            
+                            Az Cashbook pénzügyi nyilvántartó program szolgáltatásait csak regisztrált felhasználók vehetik igénybe.
+                            
+                            A regisztráció célja: az Cashbook programot használó ügyfelekkel való kapcsolattartás.
+                            
+                            Kezelt személyes adatok: kapcsolattartó név, vállalkozás neve, email cím, kapcsolattartási telefonszám.
+                            
+                            Az adatkezeléssel érintettek köre: a webhelyen regisztrált Felhasználók.
+                            
+                            Az adatkezelés jogalapja: a GDPR 6. cikk (1) bekezdésének a) pontja alapján a Felhasználó hozzájárulása. Az önkéntes hozzájárulást Felhasználó a webhely regisztrációs oldalán elérhető adatlap kitöltésével és az adatkezelési tájékoztató előtti jelölőnégyzet bejelölésével, végül az adatlap elküldéssel adja meg.
+                            Az adatkezelés időtartama: A regisztrált Felhasználók esetében az adatkezelés időtartalma a szerződés megszűnéséig vagy a regisztrált Felhasználó kérelmére történő törlésig tart. Az adatkezelés megszűnhet továbbá a regisztráció Felhasználó általi törlésével, illetve a Felhasználó regisztrációjának Adatkezelő általi törlésével is. Felhasználó bármikor törölheti regisztrációját, illetve kérheti annak törlését Adatkezelőtől, mely kérelmet Adatkezelő haladéktalanul, de legkésőbb a kérelem beérkezését követő 10 munkanapon belül végrehajt.
+                            
+                            Az adatok tárolásának módja: Az Amazon Web Services szerverein, csak az Adatkezelő által hozzáférhető módon.
+                            
+                            2.4 A weboldalon található elehetőségeken keresztül történő kapcsolatfelvétel során megadott adatokkal kapcsolatos adatkezelés
+                             
+                            
+                            A weboldal felhasználói a weboldalon található adatkezelő elérhetőségein keresztül felvehetik a kapcsolatot az Adatkezelővel.
+                            
+                            Érintettek kategóriái: Az adatkezelővel kapcsolatfelvételt kezdeményező magánszemélyek.
+                            
+                            Az adatkezelés célja: Az adatkezelés célja a kapcsolattartás a kapcsolatfelvételt kezdeményező érintettel, válaszadás a megkeresésre, megkeresésben feltett kérdések megválaszolása, általános ügyintézés a kapcsolatfelvétellel kapcsolatban.
+                            
+                            2.4.1. Kapcsolatfelvétel e-mailen keresztül
+                             
+                            
+                            Az adatkezelés jogalapja: Az adatkezelés jogalapja az érintett hozzájárulása a személyes adatai kezeléséhez (GDPR 6. cikk (1) bekezdés a) pontja alapján), azzal, hogy e-mail elérhetőségeinkre e-mailt küld.
+                            
+                            Az e-mail megérkezését követően automatikus válasz e-mailt küldünk az e-mail fogadásáról és az adatkezelési tájékoztató elérhetőségéről.
+                            
+                            A kezelt adatok köre: (a kapcsolatot felvevő Érintett által megadott személyes adatok, melyek közül -ha megadásra kerülnek- az alábbiakat tartjuk meg, a többit vagy töröljük vagy anonimizáljuk)
+                            
+                            érintett neve,
+                            érintett e-mail címe,
+                            egyéb az érintett által a kapcsolatfelvétel során megadott, az ügyintézéshez elengedetlenül szükséges személyes adatok.
+                            Az adatkezelés időtartama: az érintett hozzájárulásának visszavonásáig, de legkésőbb a kommunikáció lezárását követő 3 évig.
+                            Az e-mailes kommunikáció során megadott és egyeztetett adatok a célnak megfelelően (pl. reklamáció kezelés, szavatosság, szerződéskötés, stb.) kerülnek további adatkezelésre, erről az Érintetett az adatkezelés megkezdése előtt tájékoztatjuk.
+                            
+                            2.4.2. Kapcsolatfelvétel telefonos ügyfélszolgálaton keresztül
+                             
+                            
+                            2.4.2.1. Kapcsolatfelvétel ügyfélszolgálati időben
+                             
+                            
+                            Az adatkezelés jogalapja: Az adatkezelés a GDPR 6. cikk (1) bekezdés a) pontján alapul, az adatkezelés jogalapja az érintett hozzájárulása a személyes adatai kezeléséhez.
+                            
+                            A kezelt adatok köre: (a kapcsolatot felvevő Érintett által megadott személyes adatok, melyek közül -ha megadásra kerülnek- az alábbiakat tartjuk meg, a többit vagy töröljük vagy anonimizáljuk)
+                            
+                            érintett neve,
+                            érintett e-mail címe,
+                            érintett telefon száma,
+                            egyéb az érintett által a kapcsolatfelvétel során megadott, az ügyintézéshez elengedetlenül szükséges személyes adatok.
+                            Az adatkezelés időtartama: az érintett hozzájárulásának visszavonásáig, de legkésőbb a kommunikáció lezárását követő 3 évig.
+                            A telefonos kommunikáció során megadott és egyeztetett adatok a célnak megfelelően (pl. reklamáció kezelés, szavatosság, szerződéskötés, stb.) kerülnek további adatkezelésre, erről az Érintetett az adatkezelés megkezdése előtt tájékoztatjuk.
+                            
+                            2.4.2.2. Kapcsolatfelvétel ügyfélszolgálati időn kívül
+                             
+                            
+                            Az adatkezelés célja: Az adatkezelés célja a kapcsolatfelvételt kezdeményező érintett ügyfélszolgálati időben történő visszahívása.
+                            
+                            Az adatkezelés jogalapja: Az adatkezelés a GDPR 6. cikk (1) bekezdés f) pontján alapul, az adatkezelés jogalapja jogos érdek.
+                            
+                            A kezelt adatok köre: a kapcsolatot felvevő telefonszáma.
+                            
+                            Az adatkezelés időtartama: a visszahívás megtörténtéig, de maximum 30 napig.
+                            
+                            A visszahívás során egyeztetett adatok a célnak megfelelően (pl. reklamáció kezelés, szavatosság, szerződéskötés, stb.) kerülnek további adatkezelésre, erről az Érintetett az adatkezelés megkezdése előtt tájékoztatjuk.
+                            
+                             
+                            
+                            2.4.3. Kapcsolatfelvétel személyesen
+                             
+                            
+                            Személyes kapcsolatfelvétel határozatlan ideig szünetel. Amennyiben -valamilyen előre nem látható ok miatt – mégis megvalósul, az adatkezelés megkezdése előtt a helyszínen tájékoztatjuk az érintetteket.
+                            
+                            Személyes adatok továbbítása, címzettjei, illetve a címzettek kategóriái: Adatkezelő csak kivételes esetben és jogszabályi kötelezettség alapján adja át az Érintett személyes adatait állami szervek, hatóságok – így különösen bíróság, ügyészség, nyomozó hatóság és szabálysértési hatóság, Nemzeti Adatvédelmi és Információszabadság Hatóság – számára.
+                            
+                            Az adatszolgáltatás elmaradásának lehetséges következményei: Az adatszolgáltatás elmaradása esetén az érintettnek nem tud megfelelő választ adni az Adatkezelő.
+                            
+                            A kezelt személyes adatok forrása: A kezelt adatok forrása az Érintett.
+                            Felhívjuk a kapcsolatfelvételt kezdeményezők figyelmét, hogy harmadik személy személyes adatainak megadása esetén az adatot szolgáltató kötelessége az Érintett beleegyezésének beszerzése.
+                            
+                            Automatizált döntéshozatal (továbbá profilalkotás): Az adatkezelés során automatizált döntéshozatalra, ideértve a profilalkotást is, nem kerül sor.
+                            
+                            2.5 Érdeklődés, kapcsolatfelvétel céljából kezelt adatok (űrlap)
+                             
+                            
+                            Weboldalunkon megtalálható (https://cashbook.hu/firm-tryout) űrlap kitöltésével is felveheti velünk a kapcsolatot. A kapcsolatfelvétel során megadott személyes adatait kizárólag az Önnel való kapcsolattartásra használjuk, azokat nem továbbítjuk.
+                            
+                            Az adatkezelés célja: Az érdeklődő vállalkozókkal történő kapcsolattartás.
+                            
+                            Az adatkezelés jogalapja: Érdeklődés, tájékoztatás kérése esetén az adatkezelés a GDPR 6. cikk (1) bekezdés a) pontján alapul, az adatkezelés jogalapja az érintett hozzájárulása a személyes adatai kezeléséhez.
+                            
+                            A kezelt adatok köre: A kapcsolattartásra az alábbi adatok közül az Ön által önkéntesen megadottakat kezeljük:
+                            kapcsolattartó név,
+                            cég név,
+                            email cím,
+                            kapcsolattartási telefonszám,
+                            kérdés, probléma megfogalmazása során megadott személyes adatok.
+                            
+                            Az adatkezelés időtartama: Amennyiben a kapcsolatfelvétel tárgyában jogszerűen igény érvényesíthető, annak igazolhatósága céljából a kapcsolattartás céljából megadott személyes adatait legfeljebb 5 évig megőrizhetjük.
+                            
+                            A kezelt személyes adatok forrása: A kezelt adatok forrása az Érintett. Felhívjuk a kapcsolatfelvételt kezdeményezők figyelmét, hogy harmadik személy személyes adatainak megadása esetén az adatot szolgáltató kötelessége az Érintett beleegyezésének beszerzése.
+                            
+                            2.6 Könyvelő és számlázó programot fejlesztőkkel való kapcsolat felvétel adatkezelése (űrlap)
+                             
+                            
+                            Weboldalunkon megtalálható (https://cashbook.hu/integracio/online-szamla-xml, és a https://cashbook.hu/integracio/konyveloprogram-integracio) űrlapok kitöltésével is vehetik fel velünk a kapcsolatot a fejlesztők. A kapcsolatfelvétel során megadott személyes adatait kizárólag az Önnel való kapcsolattartásra használjuk, azokat nem továbbítjuk.
+                            
+                            Az adatkezelés célja: Az érdeklődő vállalkozókkal történő kapcsolattartás, üzleti együttműködés kialakítása.
+                            
+                            Az adatkezelés jogalapja: Érdeklődés, tájékoztatás kérése esetén az adatkezelés a GDPR 6. cikk (1) bekezdés a) pontján alapul, az adatkezelés jogalapja az érintett hozzájárulása a személyes adatai kezeléséhez.
+                            
+                            A kezelt adatok köre: A kapcsolattartásra az alábbi adatok közül az Ön által önkéntesen megadottakat kezeljük:
+                            kapcsolattartó név,
+                            cég név,
+                            email cím,
+                            kapcsolattartási telefonszám,
+                            könyvelő vagy számlázó program neve.
+                            
+                            Az adatkezelés időtartama: Amennyiben a kapcsolatfelvétel tárgyában jogszerűen igény érvényesíthető, annak igazolhatósága céljából a kapcsolattartás céljából megadott személyes adatait legfeljebb 5 évig megőrizhetjük.
+                            
+                            A kezelt személyes adatok forrása: A kezelt adatok forrása az Érintett. Felhívjuk a kapcsolatfelvételt kezdeményezők figyelmét, hogy harmadik személy személyes adatainak megadása esetén az adatot szolgáltató kötelessége az Érintett beleegyezésének beszerzése.
+                            
+                            2.7 Hírlevél, DM tevékenység
+                             
+                            
+                            Az Adatkezelő elektronikus hírlevélben direkt marketing (közvetlen üzletszerzési) üzeneteket küld azok részére, akik ehhez kifejezetten hozzájárultak.
+                            
+                            Hozzájáruló nyilatkozatot az Adatkezelő részére az https://cashbook.hu/konyveles-szemelyes-talalkozok-nelkul oldalon található hírlevélre felíratkozás regisztrációs űrlap kitöltése során lehet megadni.
+                            
+                            Az adatkezelés célja: Adatbázis készítése hírlevél küldése érdekében. Gazdasági reklámot is tartalmazó e-mail hírlevelek küldése az érdeklődők részére, tájékoztatás az aktuális információkról, ajánlatokról.
+                            
+                            Az adatkezelés jogalapja: a GDPR 6. cikk (1) bekezdés a) pontja szerint az érintett önkéntes hozzájárulása.
+                            
+                            Hozzájárulás visszavonása: Ön az adatkezeléshez adott hozzájárulását bármikor visszavonhatja. Amennyiben Ön a hozzájárulását visszavonja az Adatkezelő törli az Ön adatait a DM adatkezelésből. A hozzájárulás visszavonása nem érinti a hozzájáruláson alapuló, a visszavonás előtti adatkezelés jogszerűségét.
+                            
+                            A hozzájárulását akár postai, akár elektronikus úton tudja kezdeményezni.
+                            
+                            A kezelt adatok köre: e-mail cím, név, feliratkozás dátuma és időpontja.
+                            
+                            Az adatkezelés időtartama: a hozzájárulás visszavonásáig (a hírlevél küldéséhez adott hozzájárulás visszavonása nem érinti a visszavonást megelőző adatkezelés jogszerűségét)
+                            
+                            A nem megerősített feliratkozási kérelmek esetén a regisztrációtól/feliratkozástól számított 3 hét.
+                            
+                            Adatfeldolgozó: az adatokat tárhelyszolgáltatás céljából továbbítjuk az Amazon Web Services részére, amely az informatikai háttérszolgáltatások ellátása érdekében további adatfeldolgozókat vehet igénybe.
+                            
+                            Az adatok megismerésére jogosult lehetséges Adatkezelők személye: az Adatkezelő tagjai és kijelölt munkatársai.
+                            
+                            2.8 e-Könyvelés egyedi ajánlat adatkezelése
+                             
+                            
+                            Weboldalunk a regisztrált könyvelők egyedi ajánlatot kérhetnek (https://cashbook.hu/arkalkulator ). Ehhez kapcsolatfelvételi, elérhetőségi adatait meg kell adnia. Az ajánlatkérés során megadott személyes adatait kizárólag az Önnel való kapcsolatfelvételre és kapcsolattartásra használjuk fel az ajánlatadás érdekében, azokat nem továbbítjuk harmadik Felek számára.
+                            
+                            Az adatkezelés célja: Az ajánlatkérővel történő kapcsolatfelvétel, az ajánlatkérés teljesítése.
+                            
+                            Az adatkezelés jogalapja: Önkéntes hozzájáruláson alapul az adatkezelés az EU általános adatvédelmi rendelete (GDPR 6. cikk (1) a) pontja szerint), illetve jogszabályon alapul az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szóló 2001. évi CVIII. törvény 13/A. § alapján.
+                            
+                            A kezelt adatok köre: Az ajánlatkéréssel összefüggésben az alábbi adatok kezeljük:
+                            ajánlatkérő cég / szervezet neve,
+                            e-mail címe,
+                            kapcsolattartási telefonszám,
+                            ajánlatkérés ideje,
+                            egyéb, megadott személyes adat.
+                            
+                            Az adatkezelés időtartama: Az ajánlatkérés céljából megadott személyes adatait az ajánlatkérés beérkezését követően 3 nap elteltével automatikusan töröljük weboldalunkról.
+                            
+                            A kezelt személyes adatok forrása: A kezelt adatok forrása az Érintett. Felhívjuk a kapcsolatfelvételt kezdeményezők figyelmét, hogy harmadik személy személyes adatainak megadása esetén az adatot szolgáltató kötelessége az Érintett beleegyezésének beszerzése.
+                            
+                            2.9 Közösségi oldalak
+                             
+                            
+                            Az Adatkezelő szerződés teljesítése jogcímén a szerződés megkötése, teljesítése, megszűnése, szerződési kedvezmény nyújtása céljából kezeli a vele partnerként, ügyfélként, megbízottként, vevőként, szállítóként, munkavállalóként szerződött természetes személy adatait.
+                            
+                            Az Adatkezelő az érintettek személyes adatait kizárólag meghatározott célból (célhoz kötöttség), e szerződés teljesítése, valamint jog gyakorlása érdekében kezel.
+                            
+                            Adatkezelés jogalapja: az érintett hozzájárulása, valamint szerződés teljesítése jogcímén alapuló jogos érdek, GDPR 6. cikk (1) b) pontja szerinti jogalap: az adatkezelés olyan szerződés teljesítésének szükségessége, amelyben az érintett az egyik fél, vagy az a szerződés megkötését megelőzően az érintett kérésére történő lépések megtételéhez szükséges.
+                            
+                            Az Adatkezelő szerződése teljesítése során jogosult arra, hogy a szerződésből eredő kötelezettségeit és követeléseit átruházza harmadik személyre. Az adattovábbítások jogalapját az érintett hozzájárulása, illetve a vonatkozó jogszabályok (Ptk., Számviteli tv.) képezik.
+                            
+                            Az adattovábbítások jogalapja: az érintett hozzájárulása, illetve a vonatkozó jogszabályok (Ptk., Számviteli tv.)
+                            
+                            A személyes adatok címzettjei: az Adatkezelő szolgáltatásaival kapcsolatos feladatokat ellátó munkavállalói, személyügyi, pénzügyi, könyvelési, adózási feladatokat ellátó munkavállalói, és adatfeldolgozói.
+                            
+                            A személyes adatok kezelésének időtartama: a számvitelről szóló 2000. évi c. törvény 169. § (2) bekezdése
+                            
+                            Az adatszolgáltatás elmaradásának lehetséges következményei: szerződés nem jön létre, vagy nem tartható fenn
+                            
+                            2.10 e-Könyvelés egyedi ajánlat adatkezelése
+                            Weboldalunk úgynevezett „közösségi gombokat” is használ, amelyek lehetővé teszik látogatóink számára, hogy megnézzenek, megosszanak vagy könyvjelzővel ellássanak egy adott oldalt. Ezek a hivatkozások tőlünk független közösségi médiumokra mutatnak, amelyek adatot gyűjthetnek arról, hogy Ön az Interneten, ezen belül a jelen Weboldalon milyen böngészési tevékenységet folytat. Ha bővebb tájékoztatást szeretne kapni arról, hogy ezek a weboldalak hogyan használják fel az Önnel kapcsolatos információkat, illetve, ha szeretné letiltani vagy törölni az ilyen jellegű adatokat, kérjük, olvassa el az érintett oldalak felhasználási feltételeit és adatvédelmi szabályzatait.
+                            
+                            2.10.1 Adatok kezelése a Facebook Oldalakon
+                             
+                            
+                            A Facebook Oldalaink használatakor (https://www.facebook.com/cashbook.hu ) a felhasználó személyes adatokat adhat meg részünkre, amelyet az alábbiak szerint kezelünk.
+                            
+                            Kezelt adatok: a facebook oldal felületén a Facebook üzemeltetője által mindenkor lehetővé tett adat felhasználó általi megosztása, így ideértve a facebook profil nevet és a hozzá kapcsolódó fényképet, a facebook felhasználó reakcióját (pl. like vagy egyéb tetszés kinyilvánítása), kommentjét, üzenetét, megosztását, posztját, valamint a felhasználónak a Facebook Oldalak like-olására vonatkozó adat.
+                            
+                            Adatkezelés célja: a Facebook Oldalak üzemeltetése, és az azon történő tetszés és vélemény kinyilvánításának, információ megosztásának, valamint a kapcsolatfelvétel lehetővé tétele.
+                            
+                            Időtartama: a Facebook Oldalak fennállásáig vagy az érintett általi törlésig.
+                            
+                            A Facebook cookie-k és más adattárolási technológiák leírásáról bővebben itt olvashat: https://www.facebook.com/policies/cookies/
+                            
+                            2.10.2 Youtube
+                             
+                            
+                            Az Adatkezelő marketing célból videófelvételeket készít, melyeket a saját YouTube csatornáján (https://www.youtube.com/channel/UCY2x6nL7F6gTRZOt-hRYtAw ), vagy online felületein közzétesz.
+                            
+                            A YouTube (LLC, 901 Cherry Ave., San Bruno, CA 94066, USA) oldalon megjelentetett tartalmak tekintetében a YouTube önálló adatkezelőnek minősül. Amikor valamelyik, YouTube pluginnel rendelkező online szolgáltatásunkat használja, akkor az rákapcsolódik a YouTube szerverekre, és az igénybe vett online szolgáltatással kapcsolatos információk továbbításra kerülnek a YouTube szerverekhez. Ha Ön be van jelentkezve a YouTube fiókjába, akkor ezzel a YouTube számára lehetővé teszi, hogy a böngészési tevékenységét közvetlenül összekapcsolja a felhasználói profiljával. Ez a YouTube fiókból való kijelentkezéssel akadályozható meg.
+                            
+                            Az adatkezelés célja: az Adatkezelő tevékenységének, programjainak népszerűsítése, reklám.
+                            
+                            A YouTube adatfelhasználásával kapcsolatos további információkat lásd a YouTube adatvédelmi irányelveinél: https://policies.google.com/privacy?hl=hu
+                            
+                            Adatfeldolgozó: az adatokat tárhelyszolgáltatás céljából továbbítjuk az Amazon Web Services részére, amely az informatikai háttérszolgáltatások ellátása érdekében további adatfeldolgozókat vehet igénybe.
+                            
+                            2.11 Számlázás
+                             
+                            
+                            Az ÁFA törvényben foglalt kötelezettségünknek eleget téve állítjuk ki ÁFÁ-s számlát partnereink részére.
+                            
+                            Az adatkezelés célja: számla kibocsátása az adóalany részére az általános forgalmi adóról szóló 2007. évi CXXVII.169.§-ában meghatározott adattartalommal.
+                            
+                            Az adatkezelés jogalapja: a GDPR 6. Cikk (1) bekezdésének c) pontja alapján jogi kötelezettség teljesítése, melyet a tagállami jogban az általános forgalmi adóról szóló 2007. évi CXXVII. Törvény 159.§ és 169.§ határoz meg.
+                            
+                            A kezelt adatok köre: név, cím, összeg, vásárolt termék
+                            
+                            Adatkezelési idő: 8 év a számviteli törvény 169.§ (2) bekezdésében foglaltak alapján.
+                            
+                            Címzettek: A gépi számla kiállításához adatfeldolgozóként az …………………………………………………….. (székhelye………………………………………………………….) szolgáltatásait vesszük igénybe.
+                            
+                            2.12 Kötelező adatszolgáltatás a NAV felé
+                             
+                            
+                            Az ÁFA törvény alapján az Adatkezelőt adatszolgáltatási kötelezettség terheli a NAV irányában.
+                            
+                            Adatkezelés célja: A jogi kötelezettség teljesítése érdekében a törvény által előírt adatok továbbítása.
+                            
+                            Az adatkezelés jogalapja: a GDPR 6. Cikk (1) bekezdésének c) pontja alapján jogi kötelezettség teljesítése, melyet a tagállami jogban az általános forgalmi adóról szóló 2007. évi CXXVII. szóló 257/G. -a és 10. sz. mellékletének 1., 4., és 6. pontja határoz meg.
+                            
+                            A kezelt adatok köre: az ÁFA törvény 10. sz. mellékletének 1., 4., és 6. pontja szerinti adatok
+                            
+                            Adatkezelési idő: mivel adattovábbításról van szó, az adattovábbítás ideje.
+                            
+                            2.13 Szavatosság
+                             
+                            
+                            Érintett jogos érdeke, hogy a vásárolt termék a használat teljes ideje alatt megfelelően működjön, szükség esetén pedig érvényesíthesse szavatossági, jótállási igényét (kijavítás, kicserélés, pénzvisszafizetés).
+                            
+                            Az adatkezelés jogalapja: az adatkezelő jogi kötelezettségének teljesítése (GDPR 6. cikk (1) bek. c) pont)
+                            
+                            Az adatkezelés célja: Az érintett által vásárolt termékre vonatkozó szavatosság, jótállás teljesítése.
+                            
+                            Kezelt adatok köre: érintett neve, címe, telefonszáma, email címe, a vásárlás adatai (termék megnevezése, jellemzői, ára, vásárlás napja, helye, ideje) a vásárolt termékkel kapcsolatos kifogás
+                            
+                            Az adatkezelés időtartama: A kifogásról készített jegyzőkönyv felvételétől számított 5 évig
+                            
+                            Adatfeldolgozó: személyes adat nem kerül átadásra, így nem történik adatfeldolgozás
+                            
+                            Adattovábbítás: nem történik.
+                            
+                            Az adatszolgáltatás módja: önkéntes
+                            
+                            2.14 Külső webes szolgáltatások
+                             
+                            
+                            Oldalainkon időnként külső webes szolgáltatások segítségével jelenítünk meg különféle tartalmakat. Erre például különböző képek és videók megjelenítéséhez van szükség. A közösségi gombokhoz hasonlóan ez esetben sincs nincs befolyásunk arra, hogy ezek a weboldalak, illetve külső domének milyen adatokat gyűjtenek arról, hogy Ön miként használja ezeket a beágyazott tartalmakat.
+                            
+                            2.15 Panaszkezelés
+                             
+                            
+                            A kapcsolattartást szolgáló elérhetőségeinkre érkezhetnek fogyasztóvédelmi törvény hatálya alá nem tartozó panaszok, észrevételek, megkeresések is, melyek személyes adatot tartalmaznak. Ezek a megkeresések jellegre nézve eltérőek lehetnek, jellemzően olyan észrevételek, javaslatok, amelyek nem kapcsolódnak konkrét ügyhöz.
+                            
+                            Az adatkezelés célja: kapcsolatfelvétel az Adatkezelővel, a fogyasztói igények elintézése, a vásárló és az adatkezelő jogainak érvényesítése, az utólagos bizonyíthatóság.
+                            
+                            Az adatkezelés jogalapja: a GDPR 6. cikk (1) bekezdés a) pontja alapján az érintett önkéntes hozzájárulása, az Fgy. tv. 17/A. § (7) bekezdése.
+                            
+                            A kezelt adatok köre: az érintett által megadott személyes adatok – ez általában név és kapcsolattartási adat.
+                            
+                            Az adatkezelés időtartama: amennyiben írásban, vagy e-mailen lép kapcsolatba velünk, a megkeresést, valamint a választ a válaszadástól számított 5. év végéig őrizzük meg. Amennyiben a szóbeli kapcsolatfelvétel fogyasztói panasznak minősül, az Adatkezelő a panaszról jegyzőkönyvet vesz fel és azt a válasz másolatával együtt a válaszadástól számított 5. év végéig megőrzi az Fgy. tv. 17/A. § (7) bekezdés alapján.
+                            
+                            Címzettek: az Adatkezelő ügyfélszolgálati feladatokat ellátó munkatársai, a a szoftver fejlesztője.
+                            
+                            Az adatokat tárhelyszolgáltatás céljából továbbítjuk az Amazon Web Services részére, amely az informatikai háttérszolgáltatások ellátása érdekében további adatfeldolgozókat vehet igénybe.
+                            
+                            2.16 Egyéb adatkezelések
+                             
+                            
+                            Partnereinkkel való kapcsolattartás és együttműködés során előfordulhatnak olyan adatkezelések melyek a jelen adatkezelési tájékoztatóban nem szerepelnek. Ezen adatkezelésekről az Érintettek tájékoztatását az adatok felvétele előtt, de legkésőbb 30 nappal az adatkezelés megkezdése után bizonyítható módon megtesszük.
+                            
+                            3 Egyéb adatkezelések
+                             
+                            
+                            A jelen adatkezelési tájékoztató és az Adatkezelő adatkezelési szabályzata teljes terjedelmében megismerhető a mindenkori adatvédelmi felelősnél, illetve az Adatkezelő székhelyén.
+                            
+                            Tájékoztatjuk ügyfeleinket, hogy a bíróság, az ügyész, a nyomozó hatóság, a szabálysértési hatóság, a közigazgatási hatóság, a Nemzeti Adatvédelmi és Információszabadság Hatóság, illetve jogszabály felhatalmazása alapján más szervek tájékoztatás adása, adatok közlése, átadása, illetve iratok rendelkezésre bocsátása végett megkereshetik az adatkezelőt. A dm a hatóságok részére – amennyiben a hatóság a pontos célt és az adatok körét megjelölte – személyes adatot csak annyit és olyan mértékben ad ki, amely a megkeresés céljának megvalósításához elengedhetetlenül szükséges.
+                            
+                            Az Adatkezelő fenntartja magának a jogot jelen Adatkezelési tájékoztató módosítására, amelyről az érintetteket jogszabályban előírt módon tájékoztatjuk. Az adatkezeléssel kapcsolatos információk közzététele a https://cashbook.hu/ weboldalon történik.
+                            
+                            Dátum
+                            
+                             
+                            
+                            1. sz. melléklet
+                            
+                            Érdekmérlegelés a cookie kezeléshez
+                             
+                            
+                            Az adatkezelés célja: Ezen cookie-k a weboldal működéséhez elengedhetetlenül szükségesek. A weboldal technikai működéséhez (pl. a grafikai tartalmak hibátlan megjelenítéséhez) feltétlenül szükségesek, ezért kikapcsolásukra nincs lehetőség.
+                            
+                            Jogalap: Az Általános Adatvédelmi Rendelet (2016/679/EU) 6. cikk (1) bekezdésének f) pontja szerint „a személyes adatok kezelése kizárólag akkor és annyiban jogszerű, amennyiben legalább az alábbiak egyike teljesül: […] az adatkezelés az adatkezelő vagy egy harmadik fél jogos érdekeinek érvényesítéséhez szükséges, kivéve, ha ezen érdekekkel szemben elsőbbséget élveznek az érintett olyan érdekei vagy alapvető jogai és szabadságai, amelyek személyes adatok védelmét teszik szükségessé, különösen, ha azérintett gyermek.”
+                            
+                            A kezelt személyes adatok:
+                            
+                            Az Adatkezelő az internetes honlap üzemeltetőjeként a hálózati és informatikai biztonság fenntartása érdekében a következő személyes adatokat kezeli: – dátum
+                            – időpont
+                            – IP cím
+                            – a meglátogatott oldal címe
+                            – az előzőleg meglátogatott oldal címe
+                            – az internet használat során általánosan elfogadott, a látogatottság adatainak mérésére szolgáló egyéb adatok.
+                            
+                            Az Adatkezelő jogszerű érdeke:
+                            
+                            Az informatikai rendszereinek biztonságához az Adatkezelőnek jogszerű érdeke fűződik, az lényegi eleme az adatvédelmi követelményeknek való megfelelés biztosításának is. Az ilyen adatkezeléshez fűződő jogos érdeket maga az Általános Adatvédelmi Rendelet is elismeri. A Rendelet 49. preambulum-bekezdése szerint “[a]z érintett adatkezelő jogos érdekének minősül a közhatalmi szervek, számítástechnikai vészhelyzetekre reagáló egység (CERT), hálózatbiztonsági incidenskezelő egységek (CSIRT), elektronikus hírközlési hálózatok üzemeltetői és szolgáltatások nyújtói, valamint biztonságtechnológiai szolgáltatók által végrehajtott olyan mértékű személyes adatkezelés, amely a hálózati és informatikai biztonság garantálásához feltétlenül szükséges és arányos, vagyis adott titkossági szinten az érintett hálózat vagy információs rendszer ellenálló képessége az e hálózatokon és rendszereken tárolt vagy továbbított adatok, valamint az e hálózatok és rendszerek által nyújtott vagy rajtuk keresztül elérhető kapcsolódó szolgáltatások hozzáférhetőségét, hitelességét, integritását és bizalmas jellegét sértő véletlen eseményekkel, illetve jogellenes vagy rosszhiszemű tevékenységekkel szemben. Ez magában foglalhatja például az elektronikus kommunikációs hálózatokhoz való engedély nélküli hozzáférés és a rosszindulatú programterjesztés megakadályozását, továbbá a szolgáltatás megtagadásával járó támadások, valamint a számítógépes és elektronikus kommunikációs rendszerekben való károkozás megállítását.”
+                            
+                            Az Érintett személyes adatainak védelmével kapcsolatos jogai és szabadságai:
+                            
+                            A fentiekben meghatározott adatok egyes esetekben (pl. dinamikus IP-címmel történő látogatás) csak több adatkezelő együttes tevékenységével lennének meghatározott természetes személyhez köthetők. Az Adatkezelő a fenti személyes adatokból az érintett azonosítására nem képes: az adatkezelés célja az informatikai rendszerekkel kapcsolatos egyes biztonsági intézkedések megtétele a naplózott adatok alapján, illetőleg, ha annak helye van, meghatározott jogi eljárás kezdeményezése abban az esetben, ha a honlap látogatója jogszerűtlen cselekményt követ el a holnap látogatásával kapcsolatban. Egyéb esetben a honlap látogatóját sem az adatkezelő, sem harmadik személy nem azonosítja az adatok felhasználásával. Általános esetben az adatok kezelése az érintett magánszférájára nincs hatással, az érintett adatvédelemmel kapcsolatos jogaira és szabadságaira a szóban forgó adatkezelés nem jelent veszélyt.
+                            
+                            Az érdekmérlegelés eredménye:
+                            
+                            Az érdekmérlegelés során megállapításra került, hogy
+                            
+                            (1) az Adatkezelőnek jogszerű, a GDPR szövegével is alátámasztható, és kifejezetten az adatvédelmi rendelkezésekből következő érdeke fűződik informatikai rendszere biztonságának fenntartásához, valamint
+                            
+                            (2) az érintett magánszférájára az adatkezelés nincs hatással, mivel általános esetben (ha az érintett nem valósít meg jogellenes cselekményt) az érintettet sem az adatkezelő, sem harmadik fél nem azonosítja a kezelt adatok felhasználásával.
+                            
+                            Mivel az adatkezelés az adatkezelő jogos érdekének érvényesítéséhez szükséges, és ezen érdekekkel szemben nem élveznek elsőbbséget az érintett olyan érdekei vagy alapvető jogai és szabadságai, amelyek személyes adatok védelmét teszik szükségessé, ezért a fent meghatározott adatok
+                            
+                            az Általános Adatvédelmi Rendelet 6. cikk (1) bekezdésének f) pontja alapján az Adatkezelő által kezelhetők.3623954780-2-0570</textarea>
+
+                    </div>
+                 </section>
+            </main>
+            <hr>
+            <!--TODO FOOTER-->
+            <footer>
+                <div class="footer_menu">
+                    <a href="./adatvedelem.html">Adatvédelmi irányelvek</a>
+                    <a href="./impresszum.html">Impresszum</a>
+                </div>
+                <div class="social-logok">
+                    <a href="https://www.instagram.com/vona_food/" class="social_logo" id="social1" target="_blank"><img src="./assets/insta-logo.png" alt="instagram-logó"></a>
+                    <a href="https://www.tiktok.com/@vona1991" class="social_logo" id="social2" target="_blank"><img src="./assets/tiktok-logo.png" alt="tiktok-logó"></a>
+                    <a href="mailto:vona.2015@gmail.com" class="social_logo" id="social3" target="_blank"><img src="./assets/email-logo.png" alt="email-logó"></a>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2023 Kiss József - Front-end fejlesztő</p>
+                </div>
+            </footer>
+    </section>
+        </article>
+  </body>
+</html>

@@ -430,6 +430,7 @@ footer {
 
   .nav_hover a:hover{
     color: var(--fohatter);
+    transition-duration: 0.3s;
   }
 
   .navbar-lista1,

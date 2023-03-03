@@ -103,8 +103,8 @@
 
   .hozzavalok li {
     list-style-type: disc;
-    line-height: 25px;
-    font-size: 1.5rem;
+    line-height: 20px;
+    font-size: 1.3rem;
   }
 
   /*--Receptek-főcím--*/
@@ -172,7 +172,7 @@
   }
 
   .recept_leiras {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 10px;
     line-height: 17px;
   }

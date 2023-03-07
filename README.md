@@ -4,6 +4,6 @@
 
 Az oldal kizárólag HTML, CSS segítségével készült.
 
-Verzió: 0.1 2023.03.03.
+Verzió: 0.1 2023.03.07.
 
 # v-kitchen

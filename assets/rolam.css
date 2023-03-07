@@ -6,6 +6,10 @@
   line-height: 2.5rem;
 }
 
+.hozzavalok_container img {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .kartya_doboz1 {
     display: flex;
@@ -13,8 +17,24 @@
   }
 }
 
+@media screen and (min-width: 991px) {
+  .menu-kapcsolat {
+    margin-right: 7px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .recept_leiras {
     line-height: 3rem;
+  }
+
+  .menu-kapcsolat {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 1990px) {
+  .menu-kapcsolat {
+    margin-right: 15px;
   }
 }

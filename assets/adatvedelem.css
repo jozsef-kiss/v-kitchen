@@ -8,3 +8,21 @@ textarea {
   height: 40vh;
   resize: none;
 }
+
+@media screen and (min-width: 991px) {
+  .menu-kapcsolat {
+    margin-right: 7px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .menu-kapcsolat {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 1990px) {
+  .menu-kapcsolat {
+    margin-right: 15px;
+  }
+}

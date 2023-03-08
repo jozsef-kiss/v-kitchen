@@ -69,6 +69,9 @@
   line-height: 25px;
 }
 
+.main-box {
+  width: 100%;
+}
 @media screen and (min-width: 768px) {
   .main-box {
     width: 95%;
